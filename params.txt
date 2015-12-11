@@ -1,0 +1,1 @@
+{"name":"Super Loi's Pages","tagline":"Power by Super Loi","body":"### Welcome to Super Loi's Pages.\r\nYou can check [Loi's Github](https://github.com/loiwu/) to have some FUN!","google":"UA-71297430-2”,”note":"Don't delete this file! It's used internally to help with page regeneration."}
