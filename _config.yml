@@ -1,0 +1,13 @@
+# Welcome to Superloi's Studio!
+#
+
+# Site settings
+title: Superloi's Studio
+email: superloiwu@yahoo.com
+description: Have some FUN here!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://loiwu.github.io" # the base hostname & protocol for your site
+github_username:  loiwu
+
+# Build settings
+markdown: kramdown
