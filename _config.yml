@@ -1,13 +1,44 @@
-# Welcome to Superloi's Studio!
-#
+# General
+name: Loi Wu
+description: A teenagers view on web development and intuitive UI design.
+url: https://loiwu.github.io
 
-# Site settings
-title: Superloi's Studio
-email: superloiwu@yahoo.com
-description: Have some FUN here!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://loiwu.github.io" # the base hostname & protocol for your site
-github_username:  loiwu
+author:
+  name: Loi Wu
+  email: superloiwu@yahoo.com
+  uri: https://loiwu.github.io/about/
 
-# Build settings
+# Build
 markdown: kramdown
+kramdown:
+  input: GFM
+sass:
+  style: :expanded
+  sass_dir: _includes/sass
+
+#Other
+permalink: /notes/:title
+timezone: China/Beijing
+include: [ 'robots.txt' ]
+exclude: [ 'LICENSE', 'README.md', 'CNAME', 'vendor', 'Gemfile' ]
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Self explaining
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "null"
+  -
+    scope:
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
