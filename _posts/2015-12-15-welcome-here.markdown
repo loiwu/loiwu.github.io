@@ -15,9 +15,11 @@ You can contact me, if you like:
 
 I’m interested in technology and software development as a hobby. I’m passionate about intuitive design, multi-touch interfaces, human-focused software, and accessibility.
 
-I'm coding for iOS currently, and I've released a app named BAEN in App Store
+I'm coding for iOS currently, and I've released an app named BAEN in App Store
 
 - [BAEN](https://itunes.apple.com/us/app/baen-bay-area-equestrian-network/id967867603?mt=8)
+
+You can check what I am interested in at [my Github](https://github.com/loiwu)
 
 #About this site
 
