@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "What I am Working on"
 date:   2015-12-15 21:08:00 +0800
 categories: my projects
@@ -22,5 +23,4 @@ A software development kit is a set of software development tools. SDK allows th
 - Multithreading. Take care of main thread and schedule child threads carefully.
 - Be careful about the 3rd SDK. Add an additional wrap for 3rd SDK's error codes. You should avoid exposure the 3rd platform to developer who is using your SDK.
 - Carefully plan the version, and you'd better use digit version number.
-
 
