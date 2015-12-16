@@ -10,7 +10,7 @@ categories: my projects
 
 You can not get everything done, you need help
 
-#About Key Techonology
+###About Key Techonology
 
 ##About Application Framework
 
@@ -28,24 +28,24 @@ There are five parts for the whole project.
 
 ##About terminologies
 
-###[host application][null-link]
+#[Host Application][null-link]
 [null-link]: chrome://not-a-link
 Host application is the software environment, all the frameworks work in it.
 In the SDK project, the game application is the host application. You can also call it host environment. 
 
-###[code libraray][null-link]
+#[Code Libraray][null-link]
 [null-link]: chrome://not-a-link
 Library supplies a way of code-sharing. There are two kinds of libraries. One is called static library and the other is dynamic library.
 In the development iOS area, a static library is in the form of .a or .framework, and a dynamic  library is in the form of .dylib or .framework.
 
-###[difference between static library and dynamic library][null-link]
+#[Difference between Atatic Library and Dynamic Library][null-link]
 The static library is copied to the executable program in link-time. The dynamic library isn't copied to the executable program in link-time. When the program is running, the dynamic library is loaded into memory, and the program can call the dynamic library.
 
-###[about .framework][null-link]
+#[About .framework][null-link]
 [null-link]: chrome://not-a-link
 The .framework supplied by iOS system is the dynamic library, while the .framework supplied by developers themselves is static libray.
 
-##[difference between .a and .framework][null-link]
+#[Difference between .a and .framework][null-link]
 [null-link]: chrome://not-a-link
 .a and .framework are both the forms of the static library.
 The .a file is a pure binary file.
@@ -56,7 +56,7 @@ If you want to use the static library which is in the form of .a, you need use i
 
 The static libray in the form of .framework is recommended.
 
-###[static libray][null-link]
+#[Static Libray][null-link]
 [null-link]: chrome://not-a-link
 As metioned in wikipedia, [the static library](https://en.wikipedia.org/wiki/Static_library) is also called statically-linked library. It's a set of routines, external functions and cariables which are resolved in a caller at compile-time.
 
@@ -82,15 +82,15 @@ The static libary also help host application to connect with the dynamic library
 
 To be continued ...
 
-###[main dynamic libray][null-link]
+#[Main Dynamic Libray][null-link]
 [null-link]: chrome://not-a-link
 
 We set 'Per-configuration Build Products Path' in the Build Settings of XCode to control the final location of PPAppPlatformKitDylib.framework after it's built successfully.
 
-###[sub dynamic libray][null-link]
+#[Sub Dynamic Libray][null-link]
 [null-link]: chrome://not-a-link
 
-###[test libray][null-link]
+#[Unit Test Libray][null-link]
 [null-link]: chrome://not-a-link
 
 
