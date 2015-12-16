@@ -61,16 +61,20 @@ The static libray in the form of .framework is recommended.
 
 As metioned in wikipedia, [the static library](https://en.wikipedia.org/wiki/Static_library) is also called statically-linked library. It's a set of routines, external functions and cariables which are resolved in a caller at compile-time.
 
-In the SDK project, the game application adds PPAppPlatformKit.bundle into the project of itself. PPAppPlatformKit.framework is wrapped into PPAppPlatformKit.bundle. A .plist file which is called pphelper_sdk_Info.plist is also inclued into PPAppPlatformKit.bundle. This plist file contains the important paremeters 
- - SDK_Static_Version : static library string version
- - SDK_Static_Digit_Version : static library digital number version
- - SDK_ChannelCode : channel identifier can help to load diffent UI and functions accroding to different game channels
- - SDK_Sign_Identifier : the signiture of static library can tell sdk whether its target application is a jailbreak version or not.
+In the SDK project, the game application adds PPAppPlatformKit.bundle into the project of itself. PPAppPlatformKit.framework is wrapped into PPAppPlatformKit.bundle. A .plist file which is called pphelper_sdk_Info.plist is also inclued into PPAppPlatformKit.bundle. This plist file contains the important paremeters as follows:
+
+ - SDK_Static_Version : Static library string version
+
+ - SDK_Static_Digit_Version : Static library digital number version
+
+ - SDK_ChannelCode : Channel identifier can help to load diffent UI and functions accroding to different game channels
+
+ - SDK_Sign_Identifier : The signiture of static library can tell sdk whether its target application is a jailbreak version or not. The value of this paremeter is the MD5 fingerprint of the apple certificate which  is used for signing the app. 
 
 After the host application set appId and appKey which are supplied by PP developer platform, the game app can call a method named 'startPPSDK'. The work flow of ppsdk static libray starts as follows:
 
-(1)check and update game
-(2)check, update and load dynamic library
+    (1)check and update game
+    (2)check, update and load dynamic library
 
 	main work flow of static library:
 	-> <check for update(game)> 
@@ -82,6 +86,7 @@ After the host application set appId and appKey which are supplied by PP develop
 The static libary also help host application to connect with the dynamic library. This is the core feature of PPSDK static libary which uses the Objective-C **runtime** mechanism.
 
 To be continued ...
+=
 
 <a target="_blank"> Main Dynamic Libray </a>
 
