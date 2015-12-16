@@ -29,29 +29,24 @@ About terminologies
 =
 
 <a target="_blank"> Host Application </a>
--
 
 Host application is the software environment, all the frameworks work in it.
 In the SDK project, the game application is the host application. You can also call it host environment. 
 
 <a target="_blank"> Code Libraray </a>
--
 
 Library supplies a way of code-sharing. There are two kinds of libraries. One is called static library and the other is dynamic library.
 In the development iOS area, a static library is in the form of .a or .framework, and a dynamic  library is in the form of .dylib or .framework.
 
 <a target="_blank"> Difference between Atatic Library and Dynamic Library </a>
--
 
 The static library is copied to the executable program in link-time. The dynamic library isn't copied to the executable program in link-time. When the program is running, the dynamic library is loaded into memory, and the program can call the dynamic library.
 
 <a target="_blank"> About .framework </a>
--
 
 The .framework supplied by iOS system is the dynamic library, while the .framework supplied by developers themselves is static libray.
 
 <a target="_blank"> Difference between .a and .framework </a>
--
 
 .a and .framework are both the forms of the static library.
 The .a file is a pure binary file.
@@ -63,7 +58,6 @@ If you want to use the static library which is in the form of .a, you need use i
 The static libray in the form of .framework is recommended.
 
 <a target="_blank"> Static Libray </a>
--
 
 As metioned in wikipedia, [the static library](https://en.wikipedia.org/wiki/Static_library) is also called statically-linked library. It's a set of routines, external functions and cariables which are resolved in a caller at compile-time.
 
@@ -85,20 +79,17 @@ After the host application set appId and appKey which are supplied by PP develop
 	-> <have update / no update / retry check > 
 	-> load dynamic library
 
-The static libary also help host application to connect with the dynamic library. This is the core feature of PPSDK static libary which uses the Objective-C **runtime** mechanism. I will show you the details later.
+The static libary also help host application to connect with the dynamic library. This is the core feature of PPSDK static libary which uses the Objective-C **runtime** mechanism.
 
 To be continued ...
 
 <a target="_blank"> Main Dynamic Libray </a>
--
 
 We set 'Per-configuration Build Products Path' in the Build Settings of XCode to control the final location of PPAppPlatformKitDylib.framework after it's built successfully.
 
 <a target="_blank"> Sub Dynamic Libray </a>
--
 
 <a target="_blank"> Unit Test Libray </a>
--
 
 
 
