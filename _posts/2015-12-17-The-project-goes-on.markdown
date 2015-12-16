@@ -6,47 +6,53 @@ published:  true
 categories: my projects
 ---
 
-#About Project Experience
 
-You can not get everything done, you need help
+You can not get everything done, you need help.
 
-###About Key Techonology
 
-##About Application Framework
+About Application Framework
+=
 
 There are five parts for the whole project.
 
-- host environment : SDKDEMO
+ - host environment : SDKDEMO
 
-- static libray : PPAppPlatformKit.framework
+ - static libray : PPAppPlatformKit.framework
 
-- main dynamic libray : PPAppPlatformKitDylib.framework
+ - main dynamic libray : PPAppPlatformKitDylib.framework
 
-- sub dynamic libray : PPAppSubDylibPlatformKit.framework
+ - sub dynamic libray : PPAppSubDylibPlatformKit.framework
 
-- test libray : PPSDKTestKit.framework
+ - test libray : PPSDKTestKit.framework
 
-##About terminologies
+About terminologies
+=
 
-#[Host Application][null-link]
-[null-link]: chrome://not-a-link
+<a target="_blank"> Host Application] </a>
+-
+
 Host application is the software environment, all the frameworks work in it.
 In the SDK project, the game application is the host application. You can also call it host environment. 
 
-#[Code Libraray][null-link]
-[null-link]: chrome://not-a-link
+<a target="_blank"> Code Libraray] </a>
+-
+
 Library supplies a way of code-sharing. There are two kinds of libraries. One is called static library and the other is dynamic library.
 In the development iOS area, a static library is in the form of .a or .framework, and a dynamic  library is in the form of .dylib or .framework.
 
-#[Difference between Atatic Library and Dynamic Library][null-link]
+<a target="_blank"> Difference between Atatic Library and Dynamic Library] </a>
+-
+
 The static library is copied to the executable program in link-time. The dynamic library isn't copied to the executable program in link-time. When the program is running, the dynamic library is loaded into memory, and the program can call the dynamic library.
 
-#[About .framework][null-link]
-[null-link]: chrome://not-a-link
+<a target="_blank"> About .framework </a>
+-
+
 The .framework supplied by iOS system is the dynamic library, while the .framework supplied by developers themselves is static libray.
 
-#[Difference between .a and .framework][null-link]
-[null-link]: chrome://not-a-link
+<a target="_blank"> Difference between .a and .framework </a>
+-
+
 .a and .framework are both the forms of the static library.
 The .a file is a pure binary file.
 The .framework file does not only include the binary file, but also includes the resource files.
@@ -56,8 +62,9 @@ If you want to use the static library which is in the form of .a, you need use i
 
 The static libray in the form of .framework is recommended.
 
-#[Static Libray][null-link]
-[null-link]: chrome://not-a-link
+<a target="_blank"> Static Libray </a>
+-
+
 As metioned in wikipedia, [the static library](https://en.wikipedia.org/wiki/Static_library) is also called statically-linked library. It's a set of routines, external functions and cariables which are resolved in a caller at compile-time.
 
 In the SDK project, the game application adds PPAppPlatformKit.bundle into the project of itself. PPAppPlatformKit.framework is wrapped into PPAppPlatformKit.bundle. A .plist file which is called pphelper_sdk_Info.plist is also inclued into PPAppPlatformKit.bundle. This plist file contains the important paremeters 
@@ -82,17 +89,16 @@ The static libary also help host application to connect with the dynamic library
 
 To be continued ...
 
-#[Main Dynamic Libray][null-link]
-[null-link]: chrome://not-a-link
+<a target="_blank"> Main Dynamic Libray </a>
+-
 
 We set 'Per-configuration Build Products Path' in the Build Settings of XCode to control the final location of PPAppPlatformKitDylib.framework after it's built successfully.
 
-#[Sub Dynamic Libray][null-link]
-[null-link]: chrome://not-a-link
+<a target="_blank"> Sub Dynamic Libray </a>
+-
 
-#[Unit Test Libray][null-link]
-[null-link]: chrome://not-a-link
-
+<a target="_blank"> Unit Test Libray </a>
+-
 
 
 
