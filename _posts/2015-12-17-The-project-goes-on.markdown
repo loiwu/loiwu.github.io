@@ -79,11 +79,11 @@ After the host application set appId and appKey which are supplied by PP develop
 	main work flow of static library:
 	-> <check for update(game)> 
 	-> <have update / no update / retry check / quit> 
-	->  <check for update(dynamic library)> 
+	-> <check for update(dynamic library)> 
 	-> <have update / no update / retry check > 
-	-> load dynamic library
+	-> <load dynamic library>
 
-The static libary also help host application to connect with the dynamic library. This is the core feature of PPSDK static libary which uses the Objective-C **runtime** mechanism.
+The static libary also help host application to connect with the dynamic library. This is the core feature of PPSDK static libary which uses the Objective-C [Runtime](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ObjCRuntimeRef/) mechanism.
 
 To be continued ...
 =
@@ -95,6 +95,15 @@ We set 'Per-configuration Build Products Path' in the Build Settings of XCode to
 <a target="_blank"> Sub Dynamic Libray </a>
 
 <a target="_blank"> Unit Test Libray </a>
+
+About Highlights Technology
+=
+
+<a target="_blank"> Runtime </a>
+
+<a target="_blank"> Sandbox and File Operations </a>
+
+<a target="_blank"> Callback Method Implementation </a>
 
 
 
