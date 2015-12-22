@@ -17,15 +17,6 @@ My new year book list:
 
 
 [Design Leadership](http://shop.oreilly.com/product/0636920041535.do)
--    Chapter 1: Culture
--    Chapter 2 Talent
--    Chapter 3 Office Space and Remote Working
--    Chapter 4 Personal Growth and Finding Balance
--    Chapter 5 Planning for the Future
--    Chapter 6 Leadership Styles
--    Chapter 7 Sales and Marketing
--    Chapter 8 Learning from Our Biggest Mistakes
-
 
 
 
