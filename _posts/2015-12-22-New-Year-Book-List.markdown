@@ -18,6 +18,8 @@ My new year book list:
 
 [Design Leadership](http://shop.oreilly.com/product/0636920041535.do)
 
+[UX Strategy](http://shop.oreilly.com/product/0636920032090.do)
+
 
 
 
