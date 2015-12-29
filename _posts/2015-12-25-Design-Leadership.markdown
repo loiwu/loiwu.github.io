@@ -12,52 +12,51 @@ Logic will get you from A to B. Imagination will take you everywhere
 [Design Leadership](http://shop.oreilly.com/product/0636920041535.do)
 
 
-计划未来 Planning for the Future
-==
+<h1>计划未来</h1>
+<p>Planning for the Future</p>
 
 
-概述 Introduction
---
+<h2>概述</h2>
+<p>Introduction</p>
 
 
-做个计划者: 与生俱来的大师 vs. 后天养成的人才 Natural Planners Versus Learned Planning
---
+<h2>做个计划者: 与生俱来的大师 vs. 后天养成的人才</h2>
+<p>Natural Planners Versus Learned Planning</p>
 
 
-这烦心的模模糊糊的未来 That Pesky Ambiguous Future
---
+<h2>这烦心的模模糊糊的未来</h2>
+<p>That Pesky Ambiguous Future</p>
 
 
-让计划向文化看起 Aligning Plans to Culture
---
+<h2>让计划向文化看起</h2>
+<p>Aligning Plans to Culture</p>
 
 
-只为成功而计划 Planning for Success, and Not the Other Thing
---
+<h2>只为成功而计划</h2>
+<p>Planning for Success, and Not the Other Thing</p>
 
 
-持续计划 反复检验 Connecting the Dots
---
+<h2>持续计划 反复检验</h2>
+<p>Connecting the Dots</p>
 
 
-把收入结果和计划关联起来 Connecting Plans to Specific Revenue Outcomes
---
+<h2>把收入结果和计划关联起来</h2>
+<p>Connecting Plans to Specific Revenue Outcomes</p>
 
 
-更加勇敢 更加睿智 Be Bolder and Wiser 
---
+<h2>更加勇敢 更加睿智</h2>
+<p>Be Bolder and Wiser </p>
 
 
-保持联络 Staying Relevant 
---
+<h2>保持联络</h2>
+<p>Staying Relevant</p>
 
 
-最后唠叨 Final Words 
---
+<h2>最后唠叨</h2> 
+<p>Final Words</p>
 
 
-Key Takeaways 
---
+<h2>Key Takeaways</h2>
 
 - 要想做出伟大的计划，总需要有一堆更伟大的前提：清晰的愿景、指导原则、价值观、可行的步骤
 - 制定计划就是为了能让自己全心专注于商业活动，避免各种纷纷扰扰
