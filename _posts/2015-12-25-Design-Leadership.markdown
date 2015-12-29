@@ -11,38 +11,50 @@ Logic will get you from A to B. Imagination will take you everywhere
 
 [Design Leadership](http://shop.oreilly.com/product/0636920041535.do)
 
+
 计划未来 Planning for the Future
 ==
+
 
 概述 Introduction
 --
 
+
 做个计划者: 与生俱来的大师 vs. 后天养成的人才 Natural Planners Versus Learned Planning
 --
+
 
 这烦心的模模糊糊的未来 That Pesky Ambiguous Future
 --
 
+
 让计划向文化看起 Aligning Plans to Culture
 --
+
 
 只为成功而计划 Planning for Success, and Not the Other Thing
 --
 
+
 持续计划 反复检验 Connecting the Dots
 --
+
 
 把收入结果和计划关联起来 Connecting Plans to Specific Revenue Outcomes
 --
 
+
 更加勇敢 更加睿智 Be Bolder and Wiser 
 --
+
 
 保持联络 Staying Relevant 
 --
 
+
 最后唠叨 Final Words 
 --
+
 
 Key Takeaways 
 --
