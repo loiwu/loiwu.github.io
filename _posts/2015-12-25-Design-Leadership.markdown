@@ -12,7 +12,7 @@ Logic will get you from A to B. Imagination will take you everywhere
 [Design Leadership](http://shop.oreilly.com/product/0636920041535.do)
 
 
-<h1>计划未来</h1>
+<h1>5 计划未来</h1>
 <p>Planning for the Future</p>
 
 
@@ -66,6 +66,21 @@ Logic will get you from A to B. Imagination will take you everywhere
 - 公司和团队从来都不是线性前行的，所以需要时不时为短期的快速成长冲刺做点计划
 - 长期计划虽然已经不时髦了，但它仍然是为公司和团队获得价值回报的最佳途径
 
+
+<h1>7 销售和市场</h1>
+<p>Sales and Marketing</p>
+Introduction
+Opening Up
+Aligning Marketing with Mission
+Organizing for Optimal Outcomes
+Converting Leads to Deals
+Salespeople, Commissions, and Incentives
+Sales and Marketing Pipelines
+Creating Your Own Sales Lens
+Final Words
+Key Takeaways
+
+
 Section 1Culture
 Introduction
 It Starts with the People
@@ -107,17 +122,6 @@ Introduction
 Failure as a Gift
 The Long-Term Style
 
-Section 7Sales and Marketing
-Introduction
-Opening Up
-Aligning Marketing with Mission
-Organizing for Optimal Outcomes
-Converting Leads to Deals
-Salespeople, Commissions, and Incentives
-Sales and Marketing Pipelines
-Creating Your Own Sales Lens
-Final Words
-Key Takeaways
 Section 8Learning from Our Biggest Mistakes
 Introduction
 
