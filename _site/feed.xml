@@ -5,13 +5,26 @@
     <description>Have some FUN here!</description>
     <link>http://loiwu.github.io/</link>
     <atom:link href="http://loiwu.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jan 2016 14:06:50 +0800</pubDate>
-    <lastBuildDate>Sat, 16 Jan 2016 14:06:50 +0800</lastBuildDate>
+    <pubDate>Sat, 16 Jan 2016 16:31:41 +0800</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 16:31:41 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>iOS Best Practice</title>
         <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere.&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;目录&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#code_design&quot;&gt;代码设计&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b id=&quot;code_design&quot;&gt;&lt;/b&gt;
+##代码设计
+###面向对象基本概念
+* 抽象
+* 封装
+* 继承
+* 多态&lt;/p&gt;
 
 &lt;h3 id=&quot;solidhttpsenwikipediaorgwikisolid28object-orienteddesign29&quot;&gt;面向对象设计原则&lt;a href=&quot;https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29&quot;&gt;SOLID&lt;/a&gt;&lt;/h3&gt;
 
@@ -27,9 +40,9 @@
 
 &lt;h3 id=&quot;general-responsibility-assignment-software-patternsor-principlesgrasphttpsenwikipediaorgwikigrasp28object-orienteddesign29&quot;&gt;General Responsibility Assignment Software Patterns(or Principles)&lt;a href=&quot;https://en.wikipedia.org/wiki/GRASP_%28object-oriented_design%29&quot;&gt;GRASP&lt;/a&gt;&lt;/h3&gt;
 </description>
-        <pubDate>Wed, 06 Jan 2016 08:00:00 +0800</pubDate>
-        <link>http://loiwu.github.io/loiwu/update/2016/01/06/iOS-Best-Practice.html</link>
-        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2016/01/06/iOS-Best-Practice.html</guid>
+        <pubDate>Sat, 16 Jan 2016 08:00:00 +0800</pubDate>
+        <link>http://loiwu.github.io/loiwu/update/2016/01/16/iOS-Best-Practice.html</link>
+        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2016/01/16/iOS-Best-Practice.html</guid>
         
         
         <category>loiwu</category>
