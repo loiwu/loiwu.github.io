@@ -5,9 +5,98 @@
     <description>Have some FUN here!</description>
     <link>http://loiwu.github.io/</link>
     <atom:link href="http://loiwu.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jan 2016 16:38:50 +0800</pubDate>
-    <lastBuildDate>Sat, 16 Jan 2016 16:38:50 +0800</lastBuildDate>
+    <pubDate>Sat, 16 Jan 2016 18:00:46 +0800</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 18:00:46 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Object Oriented Programming</title>
+        <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere.&lt;/p&gt;
+
+&lt;h1 id=&quot;object-oriented-programming-httpsenwikipediaorgwikiobject-orientedprogramming&quot;&gt;Object Oriented Programming &lt;a href=&quot;https://en.wikipedia.org/wiki/Object-oriented_programming&quot;&gt;面向对象编程&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;总结高级面向对象编程的知识。当初还是外行之人的我不以为然，现在细想，这些mental toolset真的是利器，对于代码设计、逻辑思考、问题处理，都是力量之源。&lt;/p&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#oop_features&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b id=&quot;setup_project&quot;&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;h4 id=&quot;objects-and-classes-&quot;&gt;Objects and Classes 对象和类&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Classes - the definitions for the data format and available procedures for a given type or class of object; may also contain data and procedures (known as class methods) themselves
+    &lt;ul&gt;
+      &lt;li&gt;类 - 给定类型对象的定义，包括对象的数据格式和可用操作&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Objects - instances of classes
+    &lt;ul&gt;
+      &lt;li&gt;对象 - 类的实例&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Terms 成员变量包括类变量和实例变量，成员方法包括类方法和实例方法&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Class variables - belong to the class as a whole; there is only one copy of each one
+    &lt;ul&gt;
+      &lt;li&gt;类变量被整个类所拥有，每个类只有一份&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Instance variables or attributes - data that belongs to individual objects; every object has its own copy of each one
+    &lt;ul&gt;
+      &lt;li&gt;实例变量或属性属于对象，每一个对象都拥有它自己的实例变量&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Member variables - refers to both the class and instance variables that are defined by a particular class
+    &lt;ul&gt;
+      &lt;li&gt;成员变量会同时被类和特定类所定义的实例变量共同引用&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Class methods - belong to the class as a whole and have access only to class variables and inputs from the procedure call
+    &lt;ul&gt;
+      &lt;li&gt;类方法被整个类所拥有，它只对类变量和过程调用的输入有存取权限&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Instance methods - belong to individual objects, and have access to instance variables for the specific object they are called on, inputs, and class variables
+    &lt;ul&gt;
+      &lt;li&gt;实例方法被单个对象所拥有，对它调用的特定对象的实例变量有存取权限&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dynamic-dispatchmessage-passing-&quot;&gt;Dynamic dispatch/message passing 动态分发/消息传递&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Dynamic dispatch - It is the responsibility of the object, not the external code, to ‘on-demand’ select the procedural code to run/execute in response to a method call, typically by looking up the method at run time in a table associated with the object
+    &lt;ul&gt;
+      &lt;li&gt;动态分发特性表现为，对象按需选择过程代码去执行，以满足方法调用。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Message passing - A method call is also known as message passing. It is conceptualized as a message (the name of the method and its input parameters) being passed to the object for dispatch
+    &lt;ul&gt;
+      &lt;li&gt;消息传递也就是方法调用。消息就是概念化的方法名和方法参数，消息被传递给对象以便分发&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Sat, 16 Jan 2016 08:00:00 +0800</pubDate>
+        <link>http://loiwu.github.io/loiwu/update/2016/01/16/Object-Oriented.html</link>
+        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2016/01/16/Object-Oriented.html</guid>
+        
+        
+        <category>loiwu</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>iOS Best Practice</title>
