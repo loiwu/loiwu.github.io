@@ -5,9 +5,335 @@
     <description>Have some FUN here!</description>
     <link>http://loiwu.github.io/</link>
     <atom:link href="http://loiwu.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Dec 2015 16:27:10 +0800</pubDate>
-    <lastBuildDate>Wed, 16 Dec 2015 16:27:10 +0800</lastBuildDate>
+    <pubDate>Sat, 16 Jan 2016 14:06:50 +0800</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 14:06:50 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>iOS Best Practice</title>
+        <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere.&lt;/p&gt;
+
+&lt;h3 id=&quot;solidhttpsenwikipediaorgwikisolid28object-orienteddesign29&quot;&gt;面向对象设计原则&lt;a href=&quot;https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29&quot;&gt;SOLID&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;single-responsibility-principlehttpsenwikipediaorgwikisingleresponsibilityprinciple&quot;&gt;单一职责原则&lt;a href=&quot;https://en.wikipedia.org/wiki/Single_responsibility_principle&quot;&gt;Single Responsibility Principle&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;open-close-principlehttpsenwikipediaorgwikiopenclosedprinciple&quot;&gt;开放封闭原则&lt;a href=&quot;https://en.wikipedia.org/wiki/Open/closed_principle&quot;&gt;Open Close Principle&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;liskovliskov-substitution-principlehttpsenwikipediaorgwikiliskovsubstitutionprinciple&quot;&gt;Liskov替换原则&lt;a href=&quot;https://en.wikipedia.org/wiki/Liskov_substitution_principle&quot;&gt;Liskov Substitution Principle&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;interface-segregation-principlehttpsenwikipediaorgwikiinterfacesegregationprinciple&quot;&gt;接口隔离原则&lt;a href=&quot;https://en.wikipedia.org/wiki/Interface_segregation_principle&quot;&gt;Interface Segregation Principle&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;dependency-inversion-principlehttpsenwikipediaorgwikidependencyinversionprinciple&quot;&gt;依赖倒置原则&lt;a href=&quot;https://en.wikipedia.org/wiki/Dependency_inversion_principle&quot;&gt;Dependency Inversion Principle&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h3 id=&quot;general-responsibility-assignment-software-patternsor-principlesgrasphttpsenwikipediaorgwikigrasp28object-orienteddesign29&quot;&gt;General Responsibility Assignment Software Patterns(or Principles)&lt;a href=&quot;https://en.wikipedia.org/wiki/GRASP_%28object-oriented_design%29&quot;&gt;GRASP&lt;/a&gt;&lt;/h3&gt;
+</description>
+        <pubDate>Wed, 06 Jan 2016 08:00:00 +0800</pubDate>
+        <link>http://loiwu.github.io/loiwu/update/2016/01/06/iOS-Best-Practice.html</link>
+        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2016/01/06/iOS-Best-Practice.html</guid>
+        
+        
+        <category>loiwu</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Happy New Year</title>
+        <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere.&lt;/p&gt;
+
+&lt;p&gt;Happy New Year&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 01 Jan 2016 08:00:00 +0800</pubDate>
+        <link>http://loiwu.github.io/loiwu/update/2016/01/01/Happy-New-Year.html</link>
+        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2016/01/01/Happy-New-Year.html</guid>
+        
+        
+        <category>loiwu</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Design Leadership</title>
+        <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920041535.do&quot;&gt;Design Leadership&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1&gt;5 计划未来&lt;/h1&gt;
+&lt;p&gt;Planning for the Future&lt;/p&gt;
+
+&lt;h2&gt;概述&lt;/h2&gt;
+&lt;p&gt;Introduction&lt;/p&gt;
+
+&lt;h2&gt;做个计划者: 与生俱来的大师 vs. 后天养成的人才&lt;/h2&gt;
+&lt;p&gt;Natural Planners Versus Learned Planning&lt;/p&gt;
+
+&lt;h2&gt;这烦心的模模糊糊的未来&lt;/h2&gt;
+&lt;p&gt;That Pesky Ambiguous Future&lt;/p&gt;
+
+&lt;h2&gt;让计划向文化看起&lt;/h2&gt;
+&lt;p&gt;Aligning Plans to Culture&lt;/p&gt;
+
+&lt;h2&gt;只为成功而计划&lt;/h2&gt;
+&lt;p&gt;Planning for Success, and Not the Other Thing&lt;/p&gt;
+
+&lt;h2&gt;持续计划 反复检验&lt;/h2&gt;
+&lt;p&gt;Connecting the Dots&lt;/p&gt;
+
+&lt;h2&gt;把收入结果和计划关联起来&lt;/h2&gt;
+&lt;p&gt;Connecting Plans to Specific Revenue Outcomes&lt;/p&gt;
+
+&lt;h2&gt;更加勇敢 更加睿智&lt;/h2&gt;
+&lt;p&gt;Be Bolder and Wiser &lt;/p&gt;
+
+&lt;h2&gt;保持联络&lt;/h2&gt;
+&lt;p&gt;Staying Relevant&lt;/p&gt;
+
+&lt;h2&gt;最后唠叨&lt;/h2&gt;
+&lt;p&gt;Final Words&lt;/p&gt;
+
+&lt;h2&gt;Key Takeaways&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;要想做出伟大的计划，总需要有一堆更伟大的前提：清晰的愿景、指导原则、价值观、可行的步骤&lt;/li&gt;
+  &lt;li&gt;制定计划就是为了能让自己全心专注于商业活动，避免各种纷纷扰扰&lt;/li&gt;
+  &lt;li&gt;制定计划绝对是一项团体活动。赶紧向自己的合伙人、顾问、导师、队友求助&lt;/li&gt;
+  &lt;li&gt;既然未来是如此变换莫测，那就别让自己的计划一成不变了。赶紧制定足够灵活的计划，好好的适应瞬息万变的未来&lt;/li&gt;
+  &lt;li&gt;伟大的目标值得为之拼搏，达成目标的前提是自己已有了清晰的计划&lt;/li&gt;
+  &lt;li&gt;公司和团队从来都不是线性前行的，所以需要时不时为短期的快速成长冲刺做点计划&lt;/li&gt;
+  &lt;li&gt;长期计划虽然已经不时髦了，但它仍然是为公司和团队获得价值回报的最佳途径&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;7 销售和市场&lt;/h1&gt;
+&lt;p&gt;Sales and Marketing&lt;/p&gt;
+&lt;p&gt;Introduction
+Opening Up
+Aligning Marketing with Mission
+Organizing for Optimal Outcomes
+Converting Leads to Deals
+Salespeople, Commissions, and Incentives
+Sales and Marketing Pipelines
+Creating Your Own Sales Lens
+Final Words
+Key Takeaways&lt;/p&gt;
+
+&lt;p&gt;Section 1Culture
+Introduction
+It Starts with the People
+Laying the Foundation for Culture
+Final Words
+Key Takeaways&lt;/p&gt;
+
+&lt;p&gt;Section 2Talent
+Introduction
+Small Teams and Building Out
+Developing Talent Is Similar to Developing a Sales Pipeline
+Hire People Smarter than You
+Grow out of Your Shoes, Not into Them
+Hire Coachable People Willing to Learn
+Growing Teams
+Apprenticeships
+Final Words
+Key Takeaways&lt;/p&gt;
+
+&lt;p&gt;Section 3Office Space and Remote Working
+Introduction
+Selecting a Location
+Layouts and Interior Design
+Final Words
+Key Takeaways&lt;/p&gt;
+
+&lt;p&gt;Section 4Personal Growth and Finding Balance
+Introduction
+Finding the Right Focus
+Partners and Support
+Designing Balance
+Planning for a Harmonious Future
+Growing Companies by Growing Leaders
+Final Words
+Key Takeaways&lt;/p&gt;
+
+&lt;p&gt;Section 6Leadership Styles
+Introduction
+Failure as a Gift
+The Long-Term Style&lt;/p&gt;
+
+&lt;p&gt;Section 8Learning from Our Biggest Mistakes
+Introduction&lt;/p&gt;
+
+&lt;p&gt;The Business Is the Design Project
+Letting Go, Somewhat
+Managing Growth
+Working with Clients
+Making Better Mistakes
+Final Words
+Key Takeaways&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 25 Dec 2015 09:15:00 +0800</pubDate>
+        <link>http://loiwu.github.io/loiwu/update/2015/12/25/Design-Leadership.html</link>
+        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2015/12/25/Design-Leadership.html</guid>
+        
+        
+        <category>loiwu</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>The New Year Book List</title>
+        <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere&lt;/p&gt;
+
+&lt;p&gt;My new year book list:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.headfirstlabs.com/books/hfda/&quot;&gt;Head First Data Analysis&lt;/a&gt;
+- &lt;a href=&quot;http://www.headfirstlabs.com/books/hfda/HeadFirstDataAnalysisCode.zip&quot;&gt;Download supporting files for the book (zip)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920041535.do&quot;&gt;Design Leadership&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920032090.do&quot;&gt;UX Strategy&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 22 Dec 2015 09:15:00 +0800</pubDate>
+        <link>http://loiwu.github.io/loiwu/update/2015/12/22/New-Year-Book-List.html</link>
+        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2015/12/22/New-Year-Book-List.html</guid>
+        
+        
+        <category>loiwu</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>The Project Goes On</title>
+        <description>&lt;p&gt;You can not get everything done, you need help.&lt;/p&gt;
+
+&lt;h1 id=&quot;about-application-framework&quot;&gt;About Application Framework&lt;/h1&gt;
+
+&lt;p&gt;There are five parts for the whole project.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;host environment : SDKDEMO&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;static libray : PPAppPlatformKit.framework&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;main dynamic libray : PPAppPlatformKitDylib.framework&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;sub dynamic libray : PPAppSubDylibPlatformKit.framework&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;test libray : PPSDKTestKit.framework&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;about-terminologies&quot;&gt;About terminologies&lt;/h1&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Host Application &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Host application is the software environment, all the frameworks work in it.
+In the SDK project, the game application is the host application. You can also call it host environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Code Libraray &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Library supplies a way of code-sharing. There are two kinds of libraries. One is called static library and the other is dynamic library.
+In the development iOS area, a static library is in the form of .a or .framework, and a dynamic  library is in the form of .dylib or .framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Difference between Atatic Library and Dynamic Library &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The static library is copied to the executable program in link-time. The dynamic library isn’t copied to the executable program in link-time. When the program is running, the dynamic library is loaded into memory, and the program can call the dynamic library.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; About .framework &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The .framework supplied by iOS system is the dynamic library, while the .framework supplied by developers themselves is static libray.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Difference between .a and .framework &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.a and .framework are both the forms of the static library.
+The .a file is a pure binary file.
+The .framework file does not only include the binary file, but also includes the resource files.
+If you want to use the static library which is in the form of .a, you need use in concert with its header files. So we get a formula as follows:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.a + .h + resourceFile = .framework
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The static libray in the form of .framework is recommended.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Static Libray &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As metioned in wikipedia, &lt;a href=&quot;https://en.wikipedia.org/wiki/Static_library&quot;&gt;the static library&lt;/a&gt; is also called statically-linked library. It’s a set of routines, external functions and cariables which are resolved in a caller at compile-time.&lt;/p&gt;
+
+&lt;p&gt;In the SDK project, the game application adds PPAppPlatformKit.bundle into the project of itself. PPAppPlatformKit.framework is wrapped into PPAppPlatformKit.bundle. A .plist file which is called pphelper_sdk_Info.plist is also inclued into PPAppPlatformKit.bundle. This plist file contains the important paremeters as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;SDK_Static_Version : Static library string version&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SDK_Static_Digit_Version : Static library digital number version&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SDK_ChannelCode : Channel identifier can help to load diffent UI and functions accroding to different game channels&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SDK_Sign_Identifier : The signiture of static library can tell sdk whether its target application is a jailbreak version or not. The value of this paremeter is the MD5 fingerprint of the apple certificate which  is used for signing the app.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After the host application set appId and appKey which are supplied by PP developer platform, the game app can call a method named ‘startPPSDK’. The work flow of ppsdk static libray starts as follows:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(1)check and update game
+(2)check, update and load dynamic library
+
+main work flow of static library:
+-&amp;gt; &amp;lt;check for update(game)&amp;gt; 
+-&amp;gt; &amp;lt;have update / no update / retry check / quit&amp;gt; 
+-&amp;gt; &amp;lt;check for update(dynamic library)&amp;gt; 
+-&amp;gt; &amp;lt;have update / no update / retry check &amp;gt; 
+-&amp;gt; &amp;lt;load dynamic library&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The static libary also help host application to connect with the dynamic library. This is the core feature of PPSDK static libary which uses the Objective-C &lt;a href=&quot;https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ObjCRuntimeRef/&quot;&gt;Runtime&lt;/a&gt; mechanism.&lt;/p&gt;
+
+&lt;h1 id=&quot;to-be-continued-&quot;&gt;To be continued …&lt;/h1&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Main Dynamic Libray &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We set ‘Per-configuration Build Products Path’ in the Build Settings of XCode to control the final location of PPAppPlatformKitDylib.framework after it’s built successfully.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Sub Dynamic Libray &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Unit Test Libray &lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;about-highlights-technology&quot;&gt;About Highlights Technology&lt;/h1&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Runtime &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Sandbox and File Operations &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt; Callback Method Implementation &lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 17 Dec 2015 12:15:00 +0800</pubDate>
+        <link>http://loiwu.github.io/my/projects/2015/12/17/The-project-goes-on.html</link>
+        <guid isPermaLink="true">http://loiwu.github.io/my/projects/2015/12/17/The-project-goes-on.html</guid>
+        
+        
+        <category>my</category>
+        
+        <category>projects</category>
+        
+      </item>
     
       <item>
         <title>What I am Working on</title>

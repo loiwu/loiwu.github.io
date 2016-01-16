@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Project Goes On</title>
+  <meta name="description" content="You can not get everything done, you need help.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://loiwu.github.io/my/projects/2015/12/17/The-project-goes-on.html">
+  <link rel="alternate" type="application/rss+xml" title="Superloi's Studio" href="http://loiwu.github.io/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Superloi's Studio</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">The Project Goes On</h1>
+    <p class="post-meta"><time datetime="2015-12-17T12:15:00+08:00" itemprop="datePublished">Dec 17, 2015</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>You can not get everything done, you need help.</p>
+
+<h1 id="about-application-framework">About Application Framework</h1>
+
+<p>There are five parts for the whole project.</p>
+
+<ul>
+  <li>
+    <p>host environment : SDKDEMO</p>
+  </li>
+  <li>
+    <p>static libray : PPAppPlatformKit.framework</p>
+  </li>
+  <li>
+    <p>main dynamic libray : PPAppPlatformKitDylib.framework</p>
+  </li>
+  <li>
+    <p>sub dynamic libray : PPAppSubDylibPlatformKit.framework</p>
+  </li>
+  <li>
+    <p>test libray : PPSDKTestKit.framework</p>
+  </li>
+</ul>
+
+<h1 id="about-terminologies">About terminologies</h1>
+
+<p><a target="_blank"> Host Application </a></p>
+
+<p>Host application is the software environment, all the frameworks work in it.
+In the SDK project, the game application is the host application. You can also call it host environment.</p>
+
+<p><a target="_blank"> Code Libraray </a></p>
+
+<p>Library supplies a way of code-sharing. There are two kinds of libraries. One is called static library and the other is dynamic library.
+In the development iOS area, a static library is in the form of .a or .framework, and a dynamic  library is in the form of .dylib or .framework.</p>
+
+<p><a target="_blank"> Difference between Atatic Library and Dynamic Library </a></p>
+
+<p>The static library is copied to the executable program in link-time. The dynamic library isn’t copied to the executable program in link-time. When the program is running, the dynamic library is loaded into memory, and the program can call the dynamic library.</p>
+
+<p><a target="_blank"> About .framework </a></p>
+
+<p>The .framework supplied by iOS system is the dynamic library, while the .framework supplied by developers themselves is static libray.</p>
+
+<p><a target="_blank"> Difference between .a and .framework </a></p>
+
+<p>.a and .framework are both the forms of the static library.
+The .a file is a pure binary file.
+The .framework file does not only include the binary file, but also includes the resource files.
+If you want to use the static library which is in the form of .a, you need use in concert with its header files. So we get a formula as follows:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>.a + .h + resourceFile = .framework
+</code></pre>
+</div>
+
+<p>The static libray in the form of .framework is recommended.</p>
+
+<p><a target="_blank"> Static Libray </a></p>
+
+<p>As metioned in wikipedia, <a href="https://en.wikipedia.org/wiki/Static_library">the static library</a> is also called statically-linked library. It’s a set of routines, external functions and cariables which are resolved in a caller at compile-time.</p>
+
+<p>In the SDK project, the game application adds PPAppPlatformKit.bundle into the project of itself. PPAppPlatformKit.framework is wrapped into PPAppPlatformKit.bundle. A .plist file which is called pphelper_sdk_Info.plist is also inclued into PPAppPlatformKit.bundle. This plist file contains the important paremeters as follows:</p>
+
+<ul>
+  <li>
+    <p>SDK_Static_Version : Static library string version</p>
+  </li>
+  <li>
+    <p>SDK_Static_Digit_Version : Static library digital number version</p>
+  </li>
+  <li>
+    <p>SDK_ChannelCode : Channel identifier can help to load diffent UI and functions accroding to different game channels</p>
+  </li>
+  <li>
+    <p>SDK_Sign_Identifier : The signiture of static library can tell sdk whether its target application is a jailbreak version or not. The value of this paremeter is the MD5 fingerprint of the apple certificate which  is used for signing the app.</p>
+  </li>
+</ul>
+
+<p>After the host application set appId and appKey which are supplied by PP developer platform, the game app can call a method named ‘startPPSDK’. The work flow of ppsdk static libray starts as follows:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>(1)check and update game
+(2)check, update and load dynamic library
+
+main work flow of static library:
+-&gt; &lt;check for update(game)&gt; 
+-&gt; &lt;have update / no update / retry check / quit&gt; 
+-&gt; &lt;check for update(dynamic library)&gt; 
+-&gt; &lt;have update / no update / retry check &gt; 
+-&gt; &lt;load dynamic library&gt;
+</code></pre>
+</div>
+
+<p>The static libary also help host application to connect with the dynamic library. This is the core feature of PPSDK static libary which uses the Objective-C <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ObjCRuntimeRef/">Runtime</a> mechanism.</p>
+
+<h1 id="to-be-continued-">To be continued …</h1>
+
+<p><a target="_blank"> Main Dynamic Libray </a></p>
+
+<p>We set ‘Per-configuration Build Products Path’ in the Build Settings of XCode to control the final location of PPAppPlatformKitDylib.framework after it’s built successfully.</p>
+
+<p><a target="_blank"> Sub Dynamic Libray </a></p>
+
+<p><a target="_blank"> Unit Test Libray </a></p>
+
+<h1 id="about-highlights-technology">About Highlights Technology</h1>
+
+<p><a target="_blank"> Runtime </a></p>
+
+<p><a target="_blank"> Sandbox and File Operations </a></p>
+
+<p><a target="_blank"> Callback Method Implementation </a></p>
+
+
+  </div>
+  
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Superloi's Studio</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Superloi's Studio</li>
+          <li><a href="mailto:superloiwu@yahoo.com">superloiwu@yahoo.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/loiwu"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">loiwu</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Have some FUN here!</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
