@@ -2,7 +2,7 @@
 layout: post
 title:  "Design Leadership"
 date:   2015-12-25 9:15:00 +0800
-published:  true
+published:  false
 categories: loiwu update
 ---
 
