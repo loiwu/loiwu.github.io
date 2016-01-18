@@ -15,8 +15,9 @@ Logic will get you from A to B. Imagination will take you everywhere.
 ##Contents
 
 * [Features](#oop_features)
+* [GoF](#oop_gof)
 
-<b id="setup_project"></b>
+<b id="oop_features"></b>
 
 ###Features
 
@@ -49,4 +50,16 @@ Logic will get you from A to B. Imagination will take you everywhere.
 2. Message passing - A method call is also known as message passing. It is conceptualized as a message (the name of the method and its input parameters) being passed to the object for dispatch
 - 消息传递也就是方法调用。消息就是概念化的方法名和方法参数，消息被传递给对象以便分发
 
+<b id="oop_gof"></b>
+
+###[Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
+[设计模式](https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%8F%AF%E5%A4%8D%E7%94%A8%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%9F%BA%E7%A1%80)
+
+1. 创建范例
+- 抽象工厂[Abstract Factory](https://zh.wikipedia.org/wiki/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82)
+- 工厂方法[Factory Method pattern](https://zh.wikipedia.org/wiki/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95)
+
+2. 结构范例
+
+3. 行为范例
 
