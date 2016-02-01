@@ -2,7 +2,7 @@
 layout: post
 title:  "Local Persistence"
 date:   2016-1-16 0:00:00 +0000
-published:  true
+published:  false
 categories: loiwu update
 ---
 
