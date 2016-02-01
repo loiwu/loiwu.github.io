@@ -5,309 +5,96 @@
     <description>Have some FUN here!</description>
     <link>http://loiwu.github.io/</link>
     <atom:link href="http://loiwu.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jan 2016 18:00:46 +0800</pubDate>
-    <lastBuildDate>Sat, 16 Jan 2016 18:00:46 +0800</lastBuildDate>
+    <pubDate>Mon, 01 Feb 2016 17:07:03 +0800</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 17:07:03 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Object Oriented Programming</title>
-        <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere.&lt;/p&gt;
-
-&lt;h1 id=&quot;object-oriented-programming-httpsenwikipediaorgwikiobject-orientedprogramming&quot;&gt;Object Oriented Programming &lt;a href=&quot;https://en.wikipedia.org/wiki/Object-oriented_programming&quot;&gt;面向对象编程&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;总结高级面向对象编程的知识。当初还是外行之人的我不以为然，现在细想，这些mental toolset真的是利器，对于代码设计、逻辑思考、问题处理，都是力量之源。&lt;/p&gt;
-
-&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+        <title>GWRabbit 技术仓库</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;技术&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#oop_features&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Parse开源SDK&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;b id=&quot;setup_project&quot;&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
-
-&lt;h4 id=&quot;objects-and-classes-&quot;&gt;Objects and Classes 对象和类&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Classes - the definitions for the data format and available procedures for a given type or class of object; may also contain data and procedures (known as class methods) themselves
-    &lt;ul&gt;
-      &lt;li&gt;类 - 给定类型对象的定义，包括对象的数据格式和可用操作&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Objects - instances of classes
-    &lt;ul&gt;
-      &lt;li&gt;对象 - 类的实例&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Terms 成员变量包括类变量和实例变量，成员方法包括类方法和实例方法&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;看这篇文档做初步了解：http://blog.parse.com/learn/the-parse-sdk-whats-inside/&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Class variables - belong to the class as a whole; there is only one copy of each one
-    &lt;ul&gt;
-      &lt;li&gt;类变量被整个类所拥有，每个类只有一份&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Instance variables or attributes - data that belongs to individual objects; every object has its own copy of each one
-    &lt;ul&gt;
-      &lt;li&gt;实例变量或属性属于对象，每一个对象都拥有它自己的实例变量&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Member variables - refers to both the class and instance variables that are defined by a particular class
-    &lt;ul&gt;
-      &lt;li&gt;成员变量会同时被类和特定类所定义的实例变量共同引用&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Class methods - belong to the class as a whole and have access only to class variables and inputs from the procedure call
-    &lt;ul&gt;
-      &lt;li&gt;类方法被整个类所拥有，它只对类变量和过程调用的输入有存取权限&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Instance methods - belong to individual objects, and have access to instance variables for the specific object they are called on, inputs, and class variables
-    &lt;ul&gt;
-      &lt;li&gt;实例方法被单个对象所拥有，对它调用的特定对象的实例变量有存取权限&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Bolts&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;dynamic-dispatchmessage-passing-&quot;&gt;Dynamic dispatch/message passing 动态分发/消息传递&lt;/h3&gt;
+&lt;p&gt;看这篇文档：http://blog.parse.com/announcements/lets-bolt/&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Dynamic dispatch - It is the responsibility of the object, not the external code, to ‘on-demand’ select the procedural code to run/execute in response to a method call, typically by looking up the method at run time in a table associated with the object
-    &lt;ul&gt;
-      &lt;li&gt;动态分发特性表现为，对象按需选择过程代码去执行，以满足方法调用。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Message passing - A method call is also known as message passing. It is conceptualized as a message (the name of the method and its input parameters) being passed to the object for dispatch
-    &lt;ul&gt;
-      &lt;li&gt;消息传递也就是方法调用。消息就是概念化的方法名和方法参数，消息被传递给对象以便分发&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;这是&lt;a href=&quot;https://github.com/BoltsFramework&quot;&gt;Bolts的Github主页&lt;/a&gt;&lt;/p&gt;
 
-</description>
-        <pubDate>Sat, 16 Jan 2016 08:00:00 +0800</pubDate>
-        <link>http://loiwu.github.io/loiwu/update/2016/01/16/Object-Oriented.html</link>
-        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2016/01/16/Object-Oriented.html</guid>
-        
-        
-        <category>loiwu</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>iOS Best Practice</title>
-        <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere.&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;目录&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#code_design&quot;&gt;代码设计&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b id=&quot;code_design&quot;&gt;&lt;/b&gt;
-##代码设计
-###面向对象基本概念
-* 抽象
-* 封装
-* 继承
-* 多态&lt;/p&gt;
-
-&lt;h3 id=&quot;solidhttpsenwikipediaorgwikisolid28object-orienteddesign29&quot;&gt;面向对象设计原则&lt;a href=&quot;https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29&quot;&gt;SOLID&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;single-responsibility-principlehttpsenwikipediaorgwikisingleresponsibilityprinciple&quot;&gt;单一职责原则&lt;a href=&quot;https://en.wikipedia.org/wiki/Single_responsibility_principle&quot;&gt;Single Responsibility Principle&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;open-close-principlehttpsenwikipediaorgwikiopenclosedprinciple&quot;&gt;开放封闭原则&lt;a href=&quot;https://en.wikipedia.org/wiki/Open/closed_principle&quot;&gt;Open Close Principle&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;liskovliskov-substitution-principlehttpsenwikipediaorgwikiliskovsubstitutionprinciple&quot;&gt;Liskov替换原则&lt;a href=&quot;https://en.wikipedia.org/wiki/Liskov_substitution_principle&quot;&gt;Liskov Substitution Principle&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;interface-segregation-principlehttpsenwikipediaorgwikiinterfacesegregationprinciple&quot;&gt;接口隔离原则&lt;a href=&quot;https://en.wikipedia.org/wiki/Interface_segregation_principle&quot;&gt;Interface Segregation Principle&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;dependency-inversion-principlehttpsenwikipediaorgwikidependencyinversionprinciple&quot;&gt;依赖倒置原则&lt;a href=&quot;https://en.wikipedia.org/wiki/Dependency_inversion_principle&quot;&gt;Dependency Inversion Principle&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h3 id=&quot;general-responsibility-assignment-software-patternsor-principlesgrasphttpsenwikipediaorgwikigrasp28object-orienteddesign29&quot;&gt;General Responsibility Assignment Software Patterns(or Principles)&lt;a href=&quot;https://en.wikipedia.org/wiki/GRASP_%28object-oriented_design%29&quot;&gt;GRASP&lt;/a&gt;&lt;/h3&gt;
-</description>
-        <pubDate>Fri, 15 Jan 2016 08:00:00 +0800</pubDate>
-        <link>http://loiwu.github.io/loiwu/update/2016/01/15/iOS-Best-Practice.html</link>
-        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2016/01/15/iOS-Best-Practice.html</guid>
-        
-        
-        <category>loiwu</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Happy New Year</title>
-        <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere.&lt;/p&gt;
-
-&lt;p&gt;Happy New Year&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 01 Jan 2016 08:00:00 +0800</pubDate>
-        <link>http://loiwu.github.io/loiwu/update/2016/01/01/Happy-New-Year.html</link>
-        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2016/01/01/Happy-New-Year.html</guid>
-        
-        
-        <category>loiwu</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Design Leadership</title>
-        <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920041535.do&quot;&gt;Design Leadership&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1&gt;5 计划未来&lt;/h1&gt;
-&lt;p&gt;Planning for the Future&lt;/p&gt;
-
-&lt;h2&gt;概述&lt;/h2&gt;
-&lt;p&gt;Introduction&lt;/p&gt;
-
-&lt;h2&gt;做个计划者: 与生俱来的大师 vs. 后天养成的人才&lt;/h2&gt;
-&lt;p&gt;Natural Planners Versus Learned Planning&lt;/p&gt;
-
-&lt;h2&gt;这烦心的模模糊糊的未来&lt;/h2&gt;
-&lt;p&gt;That Pesky Ambiguous Future&lt;/p&gt;
-
-&lt;h2&gt;让计划向文化看起&lt;/h2&gt;
-&lt;p&gt;Aligning Plans to Culture&lt;/p&gt;
-
-&lt;h2&gt;只为成功而计划&lt;/h2&gt;
-&lt;p&gt;Planning for Success, and Not the Other Thing&lt;/p&gt;
-
-&lt;h2&gt;持续计划 反复检验&lt;/h2&gt;
-&lt;p&gt;Connecting the Dots&lt;/p&gt;
-
-&lt;h2&gt;把收入结果和计划关联起来&lt;/h2&gt;
-&lt;p&gt;Connecting Plans to Specific Revenue Outcomes&lt;/p&gt;
-
-&lt;h2&gt;更加勇敢 更加睿智&lt;/h2&gt;
-&lt;p&gt;Be Bolder and Wiser &lt;/p&gt;
-
-&lt;h2&gt;保持联络&lt;/h2&gt;
-&lt;p&gt;Staying Relevant&lt;/p&gt;
-
-&lt;h2&gt;最后唠叨&lt;/h2&gt;
-&lt;p&gt;Final Words&lt;/p&gt;
-
-&lt;h2&gt;Key Takeaways&lt;/h2&gt;
+&lt;p&gt;看这里https://github.com/BoltsFramework/Bolts-iOS，了解Bolts的细节&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;要想做出伟大的计划，总需要有一堆更伟大的前提：清晰的愿景、指导原则、价值观、可行的步骤&lt;/li&gt;
-  &lt;li&gt;制定计划就是为了能让自己全心专注于商业活动，避免各种纷纷扰扰&lt;/li&gt;
-  &lt;li&gt;制定计划绝对是一项团体活动。赶紧向自己的合伙人、顾问、导师、队友求助&lt;/li&gt;
-  &lt;li&gt;既然未来是如此变换莫测，那就别让自己的计划一成不变了。赶紧制定足够灵活的计划，好好的适应瞬息万变的未来&lt;/li&gt;
-  &lt;li&gt;伟大的目标值得为之拼搏，达成目标的前提是自己已有了清晰的计划&lt;/li&gt;
-  &lt;li&gt;公司和团队从来都不是线性前行的，所以需要时不时为短期的快速成长冲刺做点计划&lt;/li&gt;
-  &lt;li&gt;长期计划虽然已经不时髦了，但它仍然是为公司和团队获得价值回报的最佳途径&lt;/li&gt;
+  &lt;li&gt;APPLINKS&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1&gt;7 销售和市场&lt;/h1&gt;
-&lt;p&gt;Sales and Marketing&lt;/p&gt;
-&lt;p&gt;Introduction
-Opening Up
-Aligning Marketing with Mission
-Organizing for Optimal Outcomes
-Converting Leads to Deals
-Salespeople, Commissions, and Incentives
-Sales and Marketing Pipelines
-Creating Your Own Sales Lens
-Final Words
-Key Takeaways&lt;/p&gt;
+&lt;p&gt;在Bolts中，采用了这项快平台并且开源的移动端Deep-link技术&lt;a href=&quot;http://applinks.org/&quot;&gt;APPLINKS&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Section 1Culture
-Introduction
-It Starts with the People
-Laying the Foundation for Culture
-Final Words
-Key Takeaways&lt;/p&gt;
+&lt;h1 id=&quot;section-1&quot;&gt;开发&lt;/h1&gt;
 
-&lt;p&gt;Section 2Talent
-Introduction
-Small Teams and Building Out
-Developing Talent Is Similar to Developing a Sales Pipeline
-Hire People Smarter than You
-Grow out of Your Shoes, Not into Them
-Hire Coachable People Willing to Learn
-Growing Teams
-Apprenticeships
-Final Words
-Key Takeaways&lt;/p&gt;
+&lt;p&gt;Android开发使用Android Studio，&lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;下载链接&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Section 3Office Space and Remote Working
-Introduction
-Selecting a Location
-Layouts and Interior Design
-Final Words
-Key Takeaways&lt;/p&gt;
+&lt;h1 id=&quot;section-2&quot;&gt;进展&lt;/h1&gt;
 
-&lt;p&gt;Section 4Personal Growth and Finding Balance
-Introduction
-Finding the Right Focus
-Partners and Support
-Designing Balance
-Planning for a Harmonious Future
-Growing Companies by Growing Leaders
-Final Words
-Key Takeaways&lt;/p&gt;
+&lt;p&gt;2016年2月1日开始撰写该文档&lt;/p&gt;
 
-&lt;p&gt;Section 6Leadership Styles
-Introduction
-Failure as a Gift
-The Long-Term Style&lt;/p&gt;
+&lt;h1 id=&quot;section-3&quot;&gt;需要弄清楚的问题&lt;/h1&gt;
 
-&lt;p&gt;Section 8Learning from Our Biggest Mistakes
-Introduction&lt;/p&gt;
+&lt;p&gt;1 - 搭建Parse Server涉及的技术&lt;/p&gt;
 
-&lt;p&gt;The Business Is the Design Project
-Letting Go, Somewhat
-Managing Growth
-Working with Clients
-Making Better Mistakes
-Final Words
-Key Takeaways&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Node.js&lt;/li&gt;
+  &lt;li&gt;Express&lt;/li&gt;
+  &lt;li&gt;MangoDB&lt;/li&gt;
+  &lt;li&gt;Python&lt;/li&gt;
+  &lt;li&gt;Heroku&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2 - 使用Parse SDK涉及的问题&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bolts&lt;/li&gt;
+  &lt;li&gt;APPLINKS&lt;/li&gt;
+  &lt;li&gt;Android开发&lt;/li&gt;
+  &lt;li&gt;Java&lt;/li&gt;
+  &lt;li&gt;Parse SDK&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3 - 产品设计&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sketch&lt;/li&gt;
+  &lt;li&gt;产品设计方法&lt;/li&gt;
+  &lt;li&gt;商业模式&lt;/li&gt;
+  &lt;li&gt;运营模式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-4&quot;&gt;弄清楚以上问题的过程&lt;/h1&gt;
+
+&lt;p&gt;为了弄清楚如何搭建后台，我于2016年2月1日开始学习下面这本书：
+Web Development with MongoDB and NodeJS&lt;/p&gt;
+
+&lt;p&gt;我做了以下学习笔记：&lt;/p&gt;
+
+&lt;p&gt;A short introduction to Node.js
+Node.js可以被视为构建在谷歌V8引擎智商的JavaScript运行时环境。所以只要是能安装Node.js的平台，都可以运行JavaScript。
+npm – the Node Package Manager
+Node的包管理器&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 25 Dec 2015 09:15:00 +0800</pubDate>
-        <link>http://loiwu.github.io/loiwu/update/2015/12/25/Design-Leadership.html</link>
-        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2015/12/25/Design-Leadership.html</guid>
+        <pubDate>Mon, 01 Feb 2016 12:15:00 +0800</pubDate>
+        <link>http://loiwu.github.io/my/projects/2016/02/01/Parse-Tech.html</link>
+        <guid isPermaLink="true">http://loiwu.github.io/my/projects/2016/02/01/Parse-Tech.html</guid>
         
         
-        <category>loiwu</category>
+        <category>my</category>
         
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>The New Year Book List</title>
-        <description>&lt;p&gt;Logic will get you from A to B. Imagination will take you everywhere&lt;/p&gt;
-
-&lt;p&gt;My new year book list:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.headfirstlabs.com/books/hfda/&quot;&gt;Head First Data Analysis&lt;/a&gt;
-- &lt;a href=&quot;http://www.headfirstlabs.com/books/hfda/HeadFirstDataAnalysisCode.zip&quot;&gt;Download supporting files for the book (zip)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920041535.do&quot;&gt;Design Leadership&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920032090.do&quot;&gt;UX Strategy&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 22 Dec 2015 09:15:00 +0800</pubDate>
-        <link>http://loiwu.github.io/loiwu/update/2015/12/22/New-Year-Book-List.html</link>
-        <guid isPermaLink="true">http://loiwu.github.io/loiwu/update/2015/12/22/New-Year-Book-List.html</guid>
-        
-        
-        <category>loiwu</category>
-        
-        <category>update</category>
+        <category>projects</category>
         
       </item>
     
