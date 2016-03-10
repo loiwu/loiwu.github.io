@@ -51,23 +51,30 @@ NSThread
 
 ------
 
+
 NSOperation
 
     - (void)start;
     - (void)addDependency:(NSOperation *)op;
     - (void)removeDependency:(NSOperation *)op;
 
+
 NSBlockOperation
+
 
     + (instancetype)blockOperationWithBlock:(void (^)(void))block;
     - (void)addExecutionBlock:(void (^)(void))block;
 
+
 NSInvocationOperation
+
 
     - (nullable instancetype)initWithTarget:(id)target selector:(SEL)sel object:(nullable id)arg;
     - (instancetype)initWithInvocation:(NSInvocation *)inv NS_DESIGNATED_INITIALIZER;
 
+
 NSOperationQueue
+
 
     - (void)addOperation:(NSOperation *)op;
     - (void)addOperations:(NSArray<NSOperation *> *)ops waitUntilFinished:(BOOL)wait NS_AVAILABLE(10_6, 4_0);
@@ -77,6 +84,7 @@ NSOperationQueue
     - (void)waitUntilAllOperationsAreFinished;
     + (nullable NSOperationQueue *)currentQueue NS_AVAILABLE(10_6, 4_0);
     + (NSOperationQueue *)mainQueue NS_AVAILABLE(10_6, 4_0);
+
 
 ------
 
@@ -106,10 +114,12 @@ NSURLSession可以创造NSURLSessionTask对象，代表资源被加载的行为�
 
 NSURLSessionDelegate
 
+
     - (void)URLSession:(NSURLSession *)session didBecomeInvalidWithError:(nullable NSError *)error;
     - (void)URLSession:(NSURLSession *)session didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge
 completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition disposition, NSURLCredential * __nullable credential))completionHandler;
     - (void)URLSessionDidFinishEventsForBackgroundURLSession:(NSURLSession *)session NS_AVAILABLE_IOS(7_0);
+
 
 NSURLSessionTaskDelegate
 NSURLSessionDataDelegate
