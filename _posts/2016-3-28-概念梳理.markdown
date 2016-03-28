@@ -47,8 +47,112 @@ Objective-C
 - 在非ARC工程中采用ARC去编译某些类，需要设置 -fobjc-arc
 - 在ARC工程中采用非ARC去编译某些类，需要设置 -fno-objc-arc
 
+- Objective-C支持垃圾回收Garbage Collection机制，但在apple移动终端中不支持GC，Mac桌面系统开发支持GC
+- 移动终端开发支持Automatic Reference Counting，ARC在iOS5之后推出。在编写代码时，不需要向对象发送release或autorelease方法，也不可以调用dealloc方法，编译器会在何时的位置自动生成release/autorelease消息。ARC自动引用技术简化了内存管理的难度。
+
+- 当调用一个静态方法时，不需要对对象进行release，因为类方法在创建一个对象的同时，对象已经被放入自动释放池中。在自动释放池被释放时，它很可能被销毁。
+
+- 由于子类的某些实例继承自父类，因此需要通过调用[super dealloc]方法，来释放父类拥有的实例，也就是子类本身。一般需要优先释放子类拥有的实例，最后释放父类拥有的实例，所以在非ARC下，要在dealloc方法最后调用[super dealloc]。
+
+---
+
+循环引用
+
+---
+
+- 产生原因：对象A和对象B相互引用了对方作为自己的成员变量，只有自己销毁时候才能将成员变量的引用计数-1。对象A的销毁依赖于对象B的销毁，同时对象B的销毁依赖于对象A的销毁，于是形成循环引用。此时，及时外界没有任何指针访问对象A或B，它们也无法释放。
+- 多个对象间的引用，形成一个环，也会发生循环引用。
+- 解决办法：实现知道存在循环引用的地方，在合理的位置主动断开一个引用。采用弱引用的方法。
+
 ---
 
 MVC设计模式
 
 ---
+
+MVC - Model模型、View视图控制器组成的架构模式
+
+- Model负责定义、存储、操作数据
+- View用来展示数据，并和用户进行操作交互
+- Controller用于协调Model和View，它可以直接同Model和View进行通信。View通过代理协议与Controller通信。当数据更新时，Model可以通过Notification和KVO与Controller通信。Model和View不能直接进行通信，以免违背MVC设计模式
+
+---
+
+MVVM设计模式
+
+---
+
+- ViewModel视图模型层，把原来视图控制器层的业务逻辑和页面逻辑等剥离出来。比如，用户输入验证逻辑，视图显示逻辑，发起网络请求逻辑等。
+- [MVVM](http://www.teehanlax.com/blog/model-view-viewmodel-for-ios/) 
+
+---
+
+协议Protocol
+
+---
+
+协议是一个方法列表，规定了代理需要实现的相关行为。
+协议可以被任何类实现，它自身不会实现相关的方法。
+一个类一旦采用了一个协议，那么这个类必须实现协议中@required方法，对于@optional的方法则可以选择不实现
+
+---
+
+类目Category
+
+---
+
+- 不需要通过添加子类而增加现有类的行为，类目中的方法与原始类方法基本无区别
+- 通过Category可以将庞大的一个类的方法进行合理的划分，对于代码的日后维护、更新和阅读性提高，很有意义
+
+- 类目中的方法具有比原始类和父类的方法更高的优先级，如果覆盖父类发发，可能会导致super消息断裂
+
+
+---
+
+键路径key path、键值编码KVC、键值观察KVO
+
+---
+
+- 键路径是一个由点作为分隔符的键组成的字符串，它用于指定一个连接在一起的对象性质序列
+- KVC是一种间接访问对象的属性，使用字符串来标识属性的机制。非对象类型的变量将被自动封装或者解封成对象。
+- 编译器不会对设置的键、键路径进行错误检查。使用KVC键值编码，必须先解析字符串，然后设置或者访问对象的实例变量。因为多了解析字符串这一步，所以KVC执行效率要低于合成存取方法和自定义setter和getter方法。
+- KVO是一种能使对象获取其他对象属性变化通知的机制
+- 实现KVO价值观察模式，被观察的对象必须使用KVC键值编码来修改它的实例变量，才能被观察者观察到。KVC是KVO的基础。
+
+    [self addObserver:self forKeyPath@"highlighted" options:0 context:nil];
+    - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDIctionary *)change context:(void *)context
+    {
+        if([keyPath isEqualToString:@"hightlighted"]) {
+            [self setNeedsDisplay];
+        }
+    }
+
+---
+
+代理
+
+---
+
+- 代理设计模式、委托，是对象之间的通信交互，代理解除了对象之间的耦合性
+- weak delegate：防止循环引用，以至于对象无法得到正确的释放
+
+---
+
+谓词NSPredicate
+
+---
+
+[NSPredicate](http://blog.csdn.net/jiangwei0910410003/article/details/41923507)
+
+---
+
+
+
+
+
+
+
+
+
+
+
