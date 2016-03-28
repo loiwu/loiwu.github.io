@@ -121,12 +121,19 @@ MVVM设计模式
 
 `
     [self addObserver:self forKeyPath@"highlighted" options:0 context:nil];
+
     - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDIctionary *)change context:(void *)context
+
     {
+
         if([keyPath isEqualToString:@"hightlighted"]) {
+
             [self setNeedsDisplay];
+
         }
+
     }
+
 `
 
 ---
