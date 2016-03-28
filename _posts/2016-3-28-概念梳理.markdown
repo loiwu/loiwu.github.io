@@ -119,6 +119,7 @@ MVVM设计模式
 - KVO是一种能使对象获取其他对象属性变化通知的机制
 - 实现KVO价值观察模式，被观察的对象必须使用KVC键值编码来修改它的实例变量，才能被观察者观察到。KVC是KVO的基础。
 
+`
     [self addObserver:self forKeyPath@"highlighted" options:0 context:nil];
     - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDIctionary *)change context:(void *)context
     {
@@ -126,6 +127,7 @@ MVVM设计模式
             [self setNeedsDisplay];
         }
     }
+`
 
 ---
 
