@@ -29,3 +29,26 @@ Objective-C
 
 ---
 
+- 手动内存管理MRC，遵循“谁创建、谁释放、谁引用、谁管理”的机制。当创建对象时，向它发送alloc、retain、copy、mutableCopy、new消息，引用计数+1；当需要释放该对象时，向它发送release，引用计数-1。当对象的引用计数等于0时，对象会调用dealloc以期释放该对象所占用的内存。
+- 自动引用计数ARC，在iOS 5.0之后引入。它是编译时的特性，当使用ARC时，编译器帮助代码在适当位置插入release和autorelease。引用strong和weak关键字。strong修饰的指针变量指向对象时，如果指针指向新的值或者指针已经不存在，该指针原来相关联的对象就会被自动释放；weak修饰的指针变量指向对象时，当对象拥有者指向新的值或者不复存在时，weak修饰的指针会自动设置为nil。
+- 如果使用alloc、copy(mutableCopy)或者retian一个对象时，developer有义务向它发送一条release或者autorelease消息。其他方法创建的对象，不需要developer来管理内存。
+- 向一个对象发送一条autorelease消息，该对象会被放入自动释放池，等到autorelease pool释放时，池中的所有对象都会被发送一条release消息。
+- 向一个对象发送release消息，只是将对象的引用计数-1。当对象的引用计数为0时，系统才会调用该对象的dealloc，以释放该对象和对象本身拥有的实例。
+
+- 如果一个对象有一个__strong类型的指针指向着，那么这个对象就不会被释放。当一个指针超出了它的作用域，就会被指向nil，则它原来指向的对象就会被释放。一个视图控制器被释放时，它内部的全局指针也会被指向nil。所以，无论全局变量还是局部变量，都用__strong描述，__strong为默认。
+- 在方法内部的对象，如果要供外部使用，需要添加__autorelease修饰
+- block中为了避免循环引用问题，使用__weak描述
+- 声明属性时，如果使用new开头，就需要自己定制get方法
+
+    @property(getter=theString) NSString * newString;
+
+- 自动释放池，用@autoreleasepool{}
+- ARC管理Foundation框架的变量，当程序把Foundation中的变量强制转换成Core Foundation中的变量，则粗腰交换管理权
+- 在非ARC工程中采用ARC去编译某些类，需要设置 -fobjc-arc
+- 在ARC工程中采用非ARC去编译某些类，需要设置 -fno-objc-arc
+
+---
+
+MVC设计模式
+
+---
