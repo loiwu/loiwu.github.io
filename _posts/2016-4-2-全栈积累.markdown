@@ -34,10 +34,10 @@ Web和移动应用开发的一般过程：
 
 四种移动应用的开发方式：
 
-    - 使用编译语言Objective-C/Swift、Java，开发原生的iOS/Android应用
-    - 使用脚本语言JavaScript开发，并通过类似[Appcelerator](http://www.appcelerator.com/)的工具，编译成原生应用
-    - 通过Responsive Web design、[Bootstrap](http://www.bootcss.com/)、[Foundation](http://foundation.zurb.com/)等，适配小屏幕的移动网站
-    - 使用[Sencha Touch](https://www.sencha.com/products/touch/)、[Trigger.io](https://trigger.io/)等，构建包含HTML、CSS、JavaScript的HTML5应用，并使用[PhoneGap](http://phonegap.com/)包装成原生应用
+- 使用编译语言Objective-C/Swift、Java，开发原生的iOS/Android应用
+- 使用脚本语言JavaScript开发，并通过类似[Appcelerator](http://www.appcelerator.com/)的工具，编译成原生应用
+- 通过Responsive Web design、[Bootstrap](http://www.bootcss.com/)、[Foundation](http://foundation.zurb.com/)等，适配小屏幕的移动网站
+- 使用[Sencha Touch](https://www.sencha.com/products/touch/)、[Trigger.io](https://trigger.io/)等，构建包含HTML、CSS、JavaScript的HTML5应用，并使用[PhoneGap](http://phonegap.com/)包装成原生应用
 
 
 （2）HTML
