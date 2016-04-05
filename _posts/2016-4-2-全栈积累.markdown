@@ -42,4 +42,12 @@ Web和移动应用开发的一般过程：
 
 （2）HTML
 
-HTML版本很多，参考这篇[文章](https://www.smashingmagazine.com/2009/07/misunderstanding-markup-xhtml-2-comic-strip/)
+HTML是一组描述内容结构和格式的标记。
+
+参考资料：
+1.HTML版本很多，参考这篇[文章](https://www.smashingmagazine.com/2009/07/misunderstanding-markup-xhtml-2-comic-strip/)。
+2.完整的时间列表和浏览器兼容性表格，参考[这里](http://www.quirksmode.org/dom/events/index.html)。
+3.[Example: Catching a mouse click](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics#Example:_Catching_a_mouse_click)。
+4.[HTML wikipedia](https://en.wikipedia.org/wiki/HTML)。
+5.[HTML w3schools](http://www.w3schools.com/html/html_intro.asp)。
+
