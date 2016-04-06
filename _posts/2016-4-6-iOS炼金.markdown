@@ -76,10 +76,6 @@ NS_OPTIONS：
 
 ---
 
-（1）正确的运行结果并不代表正确的执行逻辑，有时候可能是个巧合而已
-
----
-
 ---
 
 ☆ Notes
@@ -94,5 +90,13 @@ NS_OPTIONS：
 （3）[优化UITableViewCell高度计算](http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/)
 
 （4）[iOS 宏(define)与常量(const)的正确使用](http://www.jianshu.com/p/f83335e036b5)
+
+---
+
+---
+
+☆ 道理
+
+（1）正确的运行结果并不代表正确的执行逻辑，有时候可能是个巧合而已
 
 ---
