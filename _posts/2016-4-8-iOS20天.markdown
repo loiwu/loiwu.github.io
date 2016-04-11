@@ -10,8 +10,9 @@ iOS炼金术师 - 去粗取精
 
 ---
 
+Part A - Links
 
-4/8/2016:
+---
 
 (1)
 [消息传递与消息转发](http://www.cnblogs.com/biosli/p/NSObject_inherit_2.html)
@@ -40,23 +41,73 @@ iOS炼金术师 - 去粗取精
 (9)
 [JSPatch 实现原理详解](https://github.com/bang590/JSPatch/wiki/JSPatch-实现原理详解)
 
-(10)
-[]()
+---
 
-(11)
-[]()
+Part B - Efficiency - 摘自Effective Objective-C 2.0
 
-(12)
-[]()
+---
 
-(13)
-[]()
+Chapter 1 - Accustoming Yourself to Objective-C
 
-(14)
-[]()
+---
 
-(15)
-[]()
+Item 1 - Familiarize Yourself with Objective-C's Roots：
+（1）作为C语言超集的Objective-C，加入了面向对象的特性。Objective-C采用了具有动态绑定特性的消息结构，对象的具体类型只有在运行时才会被决定。消息被接收后，究竟要执行怎样的代码，是由运行期环境而不是编译环境决定的。
+（2）理解C语言的核心概念，特别是内存模型和指针，将有助于写出高效的Objective-C程序。
 
-(16)
-[]()
+---
+
+Item 2 - Minimize Importing Headers in Headers
+（1）必要时才引入头文件。使用向前声明并在实现文件中引入头文件，可以降低类之间的耦合。
+（2）比如要声明某个类遵循一项协议，此时无法使用向前声明，那么久把“该类遵循某协议”这条声明移到“class-continuation 分类”中。如果不行，就把协议单独放在一个头文件中，然后单独引入。
+
+---
+
+Item 3 - Prefer Listeral Syntax over the Equivalent Methods
+（1）应尽量使用字面量语法来创建字符串、数值、数组、字典。预创建此类对象的常规方法相比，这么做会更加简明扼要。
+（2）应尽量通过取下标操作来访问数组下标或字典中的键所对应的元素。
+（3）用字面量语法创建数组或字典时，如果之中有nil，就会抛出异常。
+
+---
+
+Item 4 - Prefer Typed Constants to Preprocessor #define
+（1）不要用预处理指令定义常量。因为这样定义出的常量不含有类型信息，编译器只会在编译前据此执行查找和替换操作。所以即使常量值被重新定义，编译器也不会产生警告信息，这会导致应用程序中的常量值不一致。
+（2）在实现文件中使用static const定义“只在编译单元内可见的常量”。因为这类常量不在全局符号表中，所以不需要为其名称加前缀。
+（3）在头文件中使用extern声明全局变量，并在相关实现文件中定义它的值。因为这种常量会出现在全局符号表中，所以其名称应该加以隔离，通常用与之相关的类名作为前缀。
+
+---
+
+Item 5 - Use Enumerations for States, Options, and Status Codes
+（1）应该用枚举来表示状态机的状态、传递给方法的选项、状态码值，并给这些值起易懂的名字。
+（2）如果把传递给某个方法的选项表示为枚举类型，而多个选项又可以同时使用，那么就将各个选项定义为2的幂，以便通过按位或操作将它们组合起来。
+（3）用NS_ENUM与NS_OPTIONS宏定义枚举类型，并指明其底层数据类型。这样可以确保枚举是用开发者所选的底层数据类型实现出来的，而不会采用编译器所选的类型。
+（4）在处理枚举类型的switch语句中，为了确保能正确处理所有分支，不要实现default分支。如果实现了default分支，在加入新枚举之后，编译器就会提示开发者：switch语句并未处理所有枚举。
+
+---
+
+Part C - Key Words
+
+---
+
+ 消息结构 messaging structure * 函数调用 function calling * 虚方法表 virtual method table * 动态绑定 dynamic binding *
+ 运行期组件 runtime component * 动态库 dynamic library * 编译期 compile time * 超集 superset *
+ 内存模型 memory model * 引用计数 reference counting * 堆空间 heap stack * 栈空间 stack space *
+ 栈帧 stack frame * 非对象类型 nonobject type *
+
+ 头文件 header file * 实现文件 implemention file * 类 class * 基本头文件 base header file *
+ 使用者 consumer * 向前声明 forward declaring * 循环引用 chicken-and-egg situation * 委托协议 delegate protocol *
+ class-continuation 分类 class-continuation category * 公共头文件 public header file * 耦合 coupling * 
+
+ 字符串字面量 string literal * 字面量语法 literal syntax * 取下标操作 subscripting * 语法糖 syntactic sugar *
+ 可变的 mutable * 非字面量语法 nonliteral syntax * 子族 class cluster * 不可变的 immutable *
+ 
+ 编译单元 translation unit * 命名习惯 naming convention * 名称空间 namespace * 目标文件 object file *
+ 外部符号 external symbol * 常值变量 constant variable * 全局符号表 global symbol table * 数据段 data section *
+ 只在编译单元内可见的常量 translation-unit-specific constant * 
+ 
+ 强类型 strong type * 枚举集 enumeration set * 套接字连接 socket connection * 底层数据类型 underlying type * 
+ 按位或操作符 bitwise OR operator * 按位与操作符 bitwise AND operator * 向后兼容 backward compatibility * 
+ 隐式转换 implicit cast * 显示转换 explicit cast * 状态机 state machine *
+
+ 
+
