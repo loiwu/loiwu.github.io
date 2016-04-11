@@ -133,9 +133,10 @@ Item 11 - Understand the Role of objc_msgSend
 ---
 
 Item 12 - Understand Message Forwarding
-（1）
-（2）
-（3）
+（1）如果对象无法响应某个选择子，则进入消息转发流程。
+（2）通过运行期的动态方法解析功能，可以在需要用到某个方法时再将其加入到类中。
+（3）对象可以把无法解读的某些选择子交给其它对象来处理。
+（4）经过上述两步之后，如果还是没办法处理选择子，就启动完整的消息转发机制。
 
 ---
 
@@ -199,5 +200,9 @@ Part C - Key Words
  浮点数寄存器 floating-point register * 尾调用优化 tail-call optimization * 栈踪迹 stack trace * 栈溢出 stack overflow *
  回溯 backtrace * 发送消息 invoke a message * 调用方法 call a method * 动态消息派发系统 dynamic message dispatch system *
 
+ 消息转发 message forwarding * 无缝桥接 toll-free bridging * 内部类 internal class * 未知选择子 unknown selector *
+ 动态方法解析 dynamic method resolution * 完整的消息转发机制 full forwarding mechanism * 
+ 备援接收者 replacement receiver * 组合 composition * 多重继承 multiple inheritance * 
+ 消息派发系统 message-dispatch system * 兼容于键值编码的 key-value-coding-compliant * 
 
 
