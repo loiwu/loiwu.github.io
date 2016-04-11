@@ -85,6 +85,47 @@ Item 5 - Use Enumerations for States, Options, and Status Codes
 
 ---
 
+Chapter 2 - Object, Messaging, and the Runtime
+
+---
+
+Item 6 - Understand Properties
+（1）用@property语法来定义对象中所封装的数据。
+（2）通过attribute来制定存储数据所需的正确语义。
+（3）在设置属性所对应的实例变量时，要遵从该属性所声明的语义。
+（4）在开发iOS程序时，应使用nonatomic属性，因为atomic属性会严重影响性能。
+
+---
+
+Item 7 - Access Instance Variables Primarily Directly When Accessing Them Internally
+（1）在对象内部读取数据时，应该直接通过实例变量来读，而写入数据时，应该通过属性来写。
+（2）在初始化方法和dealloc方法中，总是应该直接通过实例变量来读写数据。
+（3）在使用惰性初始化技术配置某份数据时，需要通过属性来读取数据。
+
+---
+
+Item 8 - Understand Object Equality
+（1）如果想检测对象的等同性，需要提供“isEqual:”和“hash”方法。
+（2）相同的对象必须具有相同的hash码，但是两个hash码相同的对象不一定相同。
+（3）不要盲目的逐个检测每条属性，而应该依照具体需求来制定检测方案。
+（4）编写hash方法时，应该使用计算速度快并且哈希码碰撞率低的算法。
+
+---
+
+Item 9 - Use the Class Cluster Pattern to Hide Implementation Detail
+（1）类族模式可以把实现细节隐藏在一套简单的公共接口后面。
+（2）系统框架中经常使用类族。
+（3）从类族的公共抽象基类中继承子类时要格外注意，若有开发文档，则应首先阅读。
+
+--- 
+
+Item 10 - Use Associated Objects to Attach Custom Data to Existing Classes
+（1）可以通过“关联对象”机制把两个对象关联起来。
+（2）定义关联对象时，可以指定内存管理语义，用以模仿定义属性时所采用的“拥有关系”和“非拥有关系”。
+（3）只有在其他做法不可行时才应选用关联对象，因为这种做法通常会引入难以查找的bug。
+
+---
+
 Part C - Key Words
 
 ---
@@ -109,5 +150,33 @@ Part C - Key Words
  按位或操作符 bitwise OR operator * 按位与操作符 bitwise AND operator * 向后兼容 backward compatibility * 
  隐式转换 implicit cast * 显示转换 explicit cast * 状态机 state machine *
 
+ 对象 Object * 基本构造单元 building block * 消息传递 Messaging * Objective-C运行期环境 Objective-C runtime *
  
+ 属性 property * 存取方法 access method * 获取方法 getter * 设置方法 setter *
+ 点语法 dot syntax * 编译期 compile time * 偏移量 offset * 硬编码 hardcode *
+ 不兼容现象 incompatibility * 特殊变量 special variable * 类对象 class object * 
+ 应用程序二进制接口 Application Binary Interface * 稳固的 nonfragile * 
+ 自动合成 autosynthesis * 合成方法 synthesized method * 
+ 特质 attribute * 原子性 atomicity * 原子的 atomic * 读写 readwrite *
+ 只读 readonly * 具体的所有权语义 concrete ownership semantic * 
+ 保留 retain * 纯量类型 scalar type * 拥有关系 owning relationship * 非拥有关系 nonowning relationship *
+ 清空 nil out * 不保留 unretained * 不安全 unsafe * 拷贝 copy *
+ 初始化器 Initializer * 线程安全 thread safety * 
+
+ 方法派发 method dispatch * 键值观察 Key-Value Observing * 断点 breakpiont * 覆写 override *
+ 惰性初始化 lazy initialization * 
+ 
+ 等同性 equality * 不相等 unequal * 等同性判定方法 equality-checking method * 未定义 undefined * 
+ 指针值 pointer value * 约定 contract * 继承体系 inheritance hierarchy * 哈希码 hash *
+ 哈希表 hash table * 碰撞 collision * 强类型检查 strong type checking * 深度等同性判定 deep equality * 
+ 唯一标识符 unique identifier * 主键 primary key * 可变部分 mutable portion * 照原样 verbatim * 
+ 
+ 类族class cluster * 模式 pattern * 抽象基类 abstract base class * 用户界面框架 user interface framework *
+ 类方法 class method * 按钮类型 button type * 实体子类 concrete subclass * 工厂模式 Factory pattern *
+ 类型内省 type introspection * 占位数组 placeholder array * 内类型 internal type * 
+ 类型信息查询方法 introspection method * 工厂方法 factory method * 
+
+ 关联对象 Associated Object * 存储策略 storage policy * 不透明指针 opaque pointer * 块 block * 
+ 捕获 capture * 保留环 retain cycle * 正式的定义 formal definition * 
+
 
