@@ -140,6 +140,13 @@ Item 12 - Understand Message Forwarding
 
 ---
 
+Item 13 - Consider Method Swizzling to Debug Opaque Methods
+（1）在运行期，可以向类中新增或替换选择子所对应的方法实现。
+（2）使用另一份实现来替换原有方法的实现，这道工序叫做“方法调配”，开发者常用此技术向原有视线中添加新功能。
+（3）一般来说，只有调试程序的时候才需要在运行期修改方法实现，这种做法不宜滥用。
+
+---
+
 Part C - Key Words
 
 ---
@@ -205,4 +212,5 @@ Part C - Key Words
  备援接收者 replacement receiver * 组合 composition * 多重继承 multiple inheritance * 
  消息派发系统 message-dispatch system * 兼容于键值编码的 key-value-coding-compliant * 
 
+ 方法调配 method swizzling * 分类 category * 完全不知道其具体实现的 completely opaque * 
 
