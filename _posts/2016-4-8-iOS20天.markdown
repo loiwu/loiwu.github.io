@@ -126,6 +126,19 @@ Item 10 - Use Associated Objects to Attach Custom Data to Existing Classes
 
 ---
 
+Item 11 - Understand the Role of objc_msgSend
+（1）消息由接收者、选择器、参数构成。给某个对象发送消息就是在该对象上调用方法。
+（2）发给某对象的全部消息都要由动态消息派发系统来处理，该系统会查出对应的方法，并执行其代码。
+
+---
+
+Item 12 - Understand Message Forwarding
+（1）
+（2）
+（3）
+
+---
+
 Part C - Key Words
 
 ---
@@ -178,5 +191,13 @@ Part C - Key Words
 
  关联对象 Associated Object * 存储策略 storage policy * 不透明指针 opaque pointer * 块 block * 
  捕获 capture * 保留环 retain cycle * 正式的定义 formal definition * 
+
+ 传递消息 pass a message * 选择器 selector * 静态绑定 static binding * 内联 inline *
+ 动态绑定 dynamic binding * 接收者 receiver * 消息 message * 原型 prototype * 
+ 参数可变的函数 variadic function * 方法列表 list of methods * 消息转发 message forwarding *  快速映射表 fast map *
+ 快速执行路径 fast path * 静态绑定的函数调用操作 statically bound function call * 消息派发 message dispatch * 边界情况 edge case *
+ 浮点数寄存器 floating-point register * 尾调用优化 tail-call optimization * 栈踪迹 stack trace * 栈溢出 stack overflow *
+ 回溯 backtrace * 发送消息 invoke a message * 调用方法 call a method * 动态消息派发系统 dynamic message dispatch system *
+
 
 
