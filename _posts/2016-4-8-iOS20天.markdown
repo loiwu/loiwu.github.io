@@ -154,6 +154,66 @@ Item 14 - Understand What a Class Object Is
 
 ---
 
+Chapter 3 - 接口与API设计
+
+---
+
+Item 15 - 用前缀避免命名空间冲突
+（1）选择与你的公司、应用程序或者二者都有关联的名称作为类名的前缀，并在所有代码中均使用这一前缀。
+（2）如果自己开发的程序中用到了第三方库，则应为其中的名称也加上前缀。
+
+---
+
+Item 16 - 提供“全能初始化方法”
+（1）在类中提供一个全能初始化方法，并在文档中指明。其他初始化方法都应该调用此方法。
+（2）如果全能初始化方法与超类的不同，那么就需要覆写超类中的对应方法。
+（3）如果超类的初始化方法不适用于子类，那么久应该覆写这个超类方法，并在其中抛出异常。
+
+Item 17 - 实现description方法
+（1）实现description方法返回一个有意义的字符串，用以描述该实例。
+（2）如果想在调试时打印出更详尽的对象描述信息，那么应该实现debugDescription方法。
+
+Item 18 - 尽量使用不可变对象
+（1）尽量创建不可变的对象。
+（2）如果某属性仅可在对象内部修改，那么在“class-continuation分类”中将其由readonly属性扩展为readwrite属性。
+（3）不要把可变的collection作为属性公开，而是应该提供相关方法，以此修改对象中的可变collection。
+
+Item 19 - 使用清晰而协调的命名方式
+（1）起名时应该遵从标准的Objective-C命名规范，这样创建出来的接口更容易为开发者所理解。
+（2）方法名要言简意赅，从左至右读起来要像个日常用语中的句子才好。
+（3）方法名里不要使用缩略后的类型名称。
+（4）给方法起名时的第一要务是确保其风格与自己的代码或所要继承的框架相符。
+
+-方法命名的注意事项
+（1）如果方法返回值是新创建的，那么方法名的首个词应该是返回值的类型，除非签面还有修饰语，比如localizedString。属性的存取方法不遵循这种命名方式，因为一般认为这些方法不会创建新对象，即便有时返回内部对象的一份拷贝，也认为那相当于原有的对象。这些存取方法应该按照其所对应的属性来命名。
+（2）应该把表示参数类型的名词放在参数前面。
+（3）如果方法要在当前对象上执行操作，那么久应该包含动词；如果执行操作时还需要参数，那么应该在动词后面加上一个或多个名词。
+（4）不要使用str这种简称，应该用string这样的全程。
+（5）Boolean属性应加is前缀。如果某方法返回非属性的Boolean值，那么应该根据其功能，选用has或is当前缀。
+（6）将get这个前缀留给那些借由“输出参数”来保存返回值的方法，比如，把返回值填充到“C语言式数组（C-style）”里的那种方法就可以使用get做前缀。
+
+---
+
+Item 20 - 为私有方法名加前缀
+（1）给私有方法的名称加上前缀，这样可以很容易地将其与公共方法区分开。
+（2）不要单用一个下划线做私有方法的前缀，因为这种做法是预留给苹果公司用的。
+
+---
+
+Item 21 - 理解Objective-C错误模型
+（1）只有发生了可使整个应用程序泵扩的严重错误时，才应使用异常。
+（2）在错误不那么严重的情况下，可以指派“委托方法（delegate method）”来处理错误，也可以把错误信息放在NSError对象里，经由“输出参数”返回给调用者。
+
+---
+
+Item 22 - 理解NSCopying协议
+（1）若想另自己所写的对象具有拷贝功能，则需要实现NSCopying协议。
+（2）如果自定义的对象分为可变版本和不可变版本，那么就要同事实现NSCopying和NSMutableCopying协议。
+（3）复制对象时，需要决定采用浅拷贝还是深拷贝，一般情况下应该尽量执行浅拷贝。
+（4）如果缩写的对象需要深拷贝，那么可以考虑新增一个专门执行深拷贝的方法。
+
+---
+
 Part C - Key Words
 
 ---
@@ -226,3 +286,28 @@ Part C - Key Words
  强类型的 strongly typed * 逗号分隔的字符串 comma-separated string * 单例 singleton * 代理 proxy *
  接受代理的对象 proxied object * 
 
+ 命名空间 naming clash * 动态加载器 dynamic loader * 重名符号错误 duplicate symbol error * 处置器 handler *
+ 两字母前缀 two-letter prefix * 顶级符号 top-level symbol * 回调函数 callback * 符号表 symbol table *
+ 
+ 全能初始化方法 designated initializer * 不一致的内部数据 inconsistent internal data * 
+ 序列化机制 serialization mechanism * 解压缩 unarchiving * 解码器 decoder * 
+ 完全遵守NSCoding协议 fully NSCoding compliant * 
+
+ 格式字符串 format string * 调试器 debugger * 对象打印 print-object * 
+
+ 只读 read-only * 既可读又可写 read-write * 可变的 mutable * 网络服务 web service * 
+ 可变对象 mutable object * 竞争条件 race condition * 派发队列 dispatch queue * hack 杂技代码 *
+ 爱用蛮力的 brutal * 列表 list * 解耦 decouple * 
+
+ 驼峰式大小写命名法 camel casing * 构造器 constructor * 工厂方法 factory method * 本地化字符串 localized string *
+ 输出参数 out-parameter * C语言式数组 C-style array * 视图 View * 文本框 text field *
+ 自明其意 self-explanatory * 试图控制器 view controller * 委托接口 delegate interface * 
+
+ 异常exception * 自动引用计数 Automatic Reference Counting * 异常安全的 exception safe * 
+ 致命错误 fatal error * 非致命错误 nonfatal error * 
+ 错误范围 Error domain * 处理URL的子系统 URL-handling subsystem * Error code 错误码 * 用户信息 User info *
+ 本地化描述 localized description * 错误链 chain of errors * 解引用 dereference * 段错误 segmentation fault *
+ 
+ 区 zone * 默认区 default zone * 副作用 side effect * 辅助方法 helper *
+ 可变版本 mutable variant * 不可变版本 immutable variant * 深拷贝 deep copy * 浅拷贝 shallow copy *
+ 
