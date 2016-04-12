@@ -147,6 +147,13 @@ Item 13 - Consider Method Swizzling to Debug Opaque Methods
 
 ---
 
+Item 14 - Understand What a Class Object Is
+（1）每个实例都有一个指向Class对象的指针，用以表明其类型，而这些Class对象则构成了类的继承体系。
+（2）如果对象类型无法再编译期确定，就应该使用类型信息查询方法来探知。
+（3）尽量使用类型信息查询方法来确定对象类型，而不要直接比较类对象，因为某些对象可能实现了消息转发功能。
+
+---
+
 Part C - Key Words
 
 ---
@@ -213,4 +220,9 @@ Part C - Key Words
  消息派发系统 message-dispatch system * 兼容于键值编码的 key-value-coding-compliant * 
 
  方法调配 method swizzling * 分类 category * 完全不知道其具体实现的 completely opaque * 
+
+ 方法签名 method signature * 类型信息查询 introspection * 公共根类 common root class * 指向 point to *
+ 元数据 metadata * 元类 metaclass * 类继承体系 class hierarchy * 动态类型系统 dynamic typing * 
+ 强类型的 strongly typed * 逗号分隔的字符串 comma-separated string * 单例 singleton * 代理 proxy *
+ 接受代理的对象 proxied object * 
 
