@@ -214,6 +214,65 @@ Item 22 - 理解NSCopying协议
 
 ---
 
+Chapter 4 - 协议与分类
+
+---
+
+Chapter 5 - 内存管理
+
+---
+
+Item 29 - 理解引用计数
+（1）引用计数机制通过可以递增递减的计数器来管理内存。对象创建好之后，其保留计数至少为1。如果保留计数为正数，那么对象继续存活。当保留计数降为0时，对象就被销毁。
+（2）在对象声明周期中，其余对象通过引用来保留或释放此对象。保留与释放操作分别会递增和递减保留计数。
+
+---
+
+Chapter 6 - 块与大中枢派发
+
+---
+
+Item 37 - 理解“块”这一概念
+（1）块是C、C++、Objective-C中的词法闭包。
+（2）块可以接受参数，也可以返回值。
+（3）块可以分配在栈或堆上，也可以是全局的。分配在栈上的块可以拷贝到堆里，这样就和标准的Objective-C对象一样，具备引用计数了。
+
+---
+
+Chapter 7 - 系统框架
+
+---
+
+Item 47 - 熟悉系统框架
+（1）许多系统框架都可以直接使用。其中作重要的是Foundation和CoreFoundation，这两个框架提供了构建应用程序所需要的许多核心功能。
+（2）许多常见任务都能用框架来做，例如音频与视频处理、网络通信、数据管理等。
+（3）用纯C写成的框架与用Objective-C写成的框架一样重要，如果想成为优秀的Objective-C开发者，应该掌握C语言的核心概念。
+
+---
+
+Item 48 - 多用块枚举，少用for循环
+（1）遍历collection的四种方式：最基本的办法是for循环，其次是NSEnumerator遍历法和快速遍历法（for in），最新、最先进的方式是“块枚举法”。
+（2）“块枚举法”本身就能通过GCD来并发执行遍历操作，无须另行编写代码。而采用其他遍历方式则无法轻易实现这一点。
+（3）如果提前知道待遍历的collection含有何种类型的对象，那么应该修改块签名，指出对象的具体类型。
+
+---
+
+Item 49 - 对定义其内存管理语义的collection使用无缝桥接
+
+---
+
+Item 50 - 构建缓存时选用NSCahce而非NSDictionary
+
+---
+
+Item 51 - 精简initialize与load的实现代码
+
+---
+
+Item 52 - 别忘了NSTimer会保留其目标对象
+
+---
+
 Part C - Key Words
 
 ---
@@ -310,4 +369,46 @@ Part C - Key Words
  
  区 zone * 默认区 default zone * 副作用 side effect * 辅助方法 helper *
  可变版本 mutable variant * 不可变版本 immutable variant * 深拷贝 deep copy * 浅拷贝 shallow copy *
- 
+
+---
+
+Chapter 6 - 块与大中枢派发
+
+---
+
+ 块 block * 大中枢派发 Grand Central Dispatch * 词法闭包 lexical closure * 环境 context * 
+ 派发队列 dispatch queue * 后台线程 background thread *
+ 只执行一次的线程安全代码 thread-safe single-code execution *
+
+ 扩展 extension * 内联块 inline block * 不透明的void指针 opaque void pointer * 
+ 分配在堆上的块 heap block * 分配在栈上的块 stack block * 全局块 global block * 
+
+---
+
+Chapter 5 - 内存管理
+
+---
+
+ 自动引用计数 Automatic Reference Counting * 垃圾收集器 garbage collector * 
+
+---
+
+Chapter 7 - 系统框架 System Framework
+
+---
+
+ 动态库 dynamic library * 静态库 static library * 带图形界面的应用程序 graphical application * 
+ 无缝桥接 toll-free bridging * BSD套接字 BSD socket * 
+ 一等公民 first-class citizen * 社交网络 social networking *
+
+ 快速遍历 fast enumeration * 无序的 unordered * 具体子类 concrete subclass * 枚举器 enumerator *
+ 选项掩码 option mask * 按位或 bitwise OR * 
+
+ 无缝桥接 toll-free bridging * 桥式转换 bridged cast * 内存分配器 allocator * 保留计数 retain count *
+ 引用计数 reference count * 自动释放池 autorelease pool * 回收 deallocated * 可重用 reuse *
+ 对象图 object graph * 强引用 strong reference * 拥有 own * 根对象 root object *
+ 可用内存池 available pool * 悬挂指针 dangling pointer * 强关系 strong relationship * 事件循环 event loop *
+ 方法调用边界 method call boundary * 保留环 retain cycle * 鼓捣 island of isolation * 弱引用 weak reference *
+
+---
+
