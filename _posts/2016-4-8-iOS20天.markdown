@@ -218,6 +218,13 @@ Chapter 4 - 协议与分类
 
 ---
 
+Item 23 - 通过委托与数据源协议进行对象间通信
+（1）委托模式为对象提供了一套接口，使它们可以由此将相关事件告诉其他对象。
+（2）当某对象需要从另一个对象中获取数据时，可以使用委托模式。这种情境下，该模式也成为“数据源协议”。
+（3）如果必要，可以实现含有位段的结构体，将委托对象是否能响应相关协议方法这一信息缓存在其中。
+
+---
+
 Chapter 5 - 内存管理
 
 ---
@@ -369,6 +376,19 @@ Part C - Key Words
  
  区 zone * 默认区 default zone * 副作用 side effect * 辅助方法 helper *
  可变版本 mutable variant * 不可变版本 immutable variant * 深拷贝 deep copy * 浅拷贝 shallow copy *
+ 
+ ---
+
+Chapter 4 - 协议与分类
+
+---
+
+ 委托模式 Delegate pattern * 委托 delegate * 数据源 data source *
+ 以异步方式执行一项任务 perform a task asynchronously * 非拥有关系 nonowning relationship * 自动清空 autoniling *
+ 可选的 optional * 网络数据获取器 network fetcher * 重定向 redirect * 数据源模式 Data Source Pattern *
+ 列表视图 list view * 生命期 life cycle * 位段 bitfield * 数据源协议 data source protocol *
+
+---
 
 ---
 
