@@ -269,6 +269,11 @@ Item 29 - 理解引用计数
 
 ---
 
+Item 30 - 以ARC简化引用计数
+
+
+---
+
 Chapter 6 - 块与大中枢派发
 
 ---
@@ -436,6 +441,16 @@ Chapter 5 - 内存管理
 
 ---
 
+ 自动引用计数 Automatic Reference Counting * 垃圾收集器 garbage collector * 保留计数 retain count *
+ 引用计数 reference count * 自动释放池 autorelease pool * 回收 deallocated * 可重用 reuse *
+ 对象图 object graph * 强引用 strong reference * 拥有 own * 根对象 root object *
+ 可用内存池 available pool * 悬挂指针 dangling pointer * 强关系 strong relationship * 事件循环 event loop *
+ 方法调用边界 method call boundary * 保留环 retain cycle * 孤岛 island of isolation * 弱引用 weak reference * 
+
+ 静态分析器 static analyzer * 
+
+---
+
 Chapter 6 - 块与大中枢派发
 
 ---
@@ -446,14 +461,6 @@ Chapter 6 - 块与大中枢派发
 
  扩展 extension * 内联块 inline block * 不透明的void指针 opaque void pointer * 
  分配在堆上的块 heap block * 分配在栈上的块 stack block * 全局块 global block * 
-
----
-
-Chapter 5 - 内存管理
-
----
-
- 自动引用计数 Automatic Reference Counting * 垃圾收集器 garbage collector * 
 
 ---
 
@@ -468,11 +475,7 @@ Chapter 7 - 系统框架 System Framework
  快速遍历 fast enumeration * 无序的 unordered * 具体子类 concrete subclass * 枚举器 enumerator *
  选项掩码 option mask * 按位或 bitwise OR * 
 
- 无缝桥接 toll-free bridging * 桥式转换 bridged cast * 内存分配器 allocator * 保留计数 retain count *
- 引用计数 reference count * 自动释放池 autorelease pool * 回收 deallocated * 可重用 reuse *
- 对象图 object graph * 强引用 strong reference * 拥有 own * 根对象 root object *
- 可用内存池 available pool * 悬挂指针 dangling pointer * 强关系 strong relationship * 事件循环 event loop *
- 方法调用边界 method call boundary * 保留环 retain cycle * 鼓捣 island of isolation * 弱引用 weak reference *
+ 无缝桥接 toll-free bridging * 桥式转换 bridged cast * 内存分配器 allocator * 
 
 ---
 
