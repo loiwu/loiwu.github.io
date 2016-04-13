@@ -220,8 +220,42 @@ Chapter 4 - 协议与分类
 
 Item 23 - 通过委托与数据源协议进行对象间通信
 （1）委托模式为对象提供了一套接口，使它们可以由此将相关事件告诉其他对象。
-（2）当某对象需要从另一个对象中获取数据时，可以使用委托模式。这种情境下，该模式也成为“数据源协议”。
-（3）如果必要，可以实现含有位段的结构体，将委托对象是否能响应相关协议方法这一信息缓存在其中。
+（2）将委托对象应该支持的接口定义成协议，在协议中把可能需要处理的时间定义成方法。
+（3）当某对象需要从另一个对象中获取数据时，可以使用委托模式。这种情境下，该模式也成为“数据源协议”。
+（4）如果必要，可以实现含有位段的结构体，将委托对象是否能响应相关协议方法这一信息缓存在其中。
+
+---
+
+Item 24 - 将类的实现代码分散到便于管理的数个分类之中
+（1）使用分类机制把类的实现代码划分成易于管理的小块。
+（2）将应该视为“私有”的方法归入名为Private的分类中，以隐藏实现细节。
+
+---
+
+Item 25 - 总是为第三方类的分类名称加前缀
+（1）向第三方类中添加分类时，总应该给其名称加上你的专用前缀。
+（2）向第三方类中添加分类时，总应该给其中的方法名加上你的专用前缀。
+
+--- 
+
+Item 26 - 不要在分类中声明属性
+（1）把封装数据所用的全部属性都定义在主接口里。
+（2）在“class-continuation分类”之外的其他分类中，可以定义存取方法，但尽量不要定义属性。
+
+---
+
+Item 27 - 使用“class-continuation分类”隐藏实现细节
+（1）通过“class-continuation分类”向类中新增实例变量。
+（2）如果某属性在主接口中声明为“只读”，而类的内部又要用设置方法修改此属性，那么就在“class-continuation分类”中将其扩展为“可读写”
+（3）把私有方法的原型声明在“class-continuation分类”里面。
+（4）如果想使类所遵循的协议不为人所知，那么可以在“class-continuation分类”中声明。
+
+---
+
+Item 28 - 通过协议提供匿名对象
+（1）协议可在某种程度上提供匿名类型。具体的对象类型可以淡化成遵从某些以的id类型，协议里规定饿对象所应实现的方法。
+（2）使用匿名对象来隐藏类型名称（或类名）。
+（3）如果具体类型不重要，重要的是对象能都响应（定义在协议里的）特定方法，那么可以使用匿名对象来表示。
 
 ---
 
@@ -388,7 +422,17 @@ Chapter 4 - 协议与分类
  可选的 optional * 网络数据获取器 network fetcher * 重定向 redirect * 数据源模式 Data Source Pattern *
  列表视图 list view * 生命期 life cycle * 位段 bitfield * 数据源协议 data source protocol *
 
+ 主实现 main implementation * 功能区 function area * 符号名 symbol name * 自我描述式代码 self-documenting code *
+
+ 属性特质 attribute * 主接口 main interface * 键值观察 Key-Value Observing * 观察者 observer *
+ 竞争条件 race condition * 
+
+ 匿名对象 anonymous object * 匿名类 anonymous class * 匿名的 anonymous * 数据库连接 database connection *
+ 数据库处理器 database handler * 匿名类型 anonymous type * 内部状态对象 internal state object * 
+
 ---
+
+Chapter 5 - 内存管理
 
 ---
 
