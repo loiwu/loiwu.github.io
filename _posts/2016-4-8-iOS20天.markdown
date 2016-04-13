@@ -270,7 +270,10 @@ Item 29 - 理解引用计数
 ---
 
 Item 30 - 以ARC简化引用计数
-
+（1）有ARC之后，程序员就无须大新内存管理问题了。使用ARC来编程，可以省去类中的许多样板代码。
+（2）ARC管理对象生命周期的基本办法是：在合适的地方插入“保留”及“释放”操作。在ARC环境下，变量的内存管理语义可以通过修饰符指明，而原来则需要手工执行“保留”及“释放”操作。
+（3）由方法所返回的对象，其内存管理语义总是通过方法名来体现。ARC将此确定为开发者必须遵守的规则。
+（4）ARC只负责管理Objective-C对象的内存。尤其要注意：CoreFoundation对象不归ARC管理，开发者必须适时调用CFRetain/CFRealease。
 
 ---
 
@@ -447,7 +450,10 @@ Chapter 5 - 内存管理
  可用内存池 available pool * 悬挂指针 dangling pointer * 强关系 strong relationship * 事件循环 event loop *
  方法调用边界 method call boundary * 保留环 retain cycle * 孤岛 island of isolation * 弱引用 weak reference * 
 
- 静态分析器 static analyzer * 
+ 静态分析器 static analyzer * 向后兼容性 backward compatibility * 边界情况 edge case *  
+ 按引用传递 pass by reference * 块 block * 保留环 retain cycle * 回收分配对象的内存 deallocate *
+ 清理代码 cleanup code * 清理例程 cleanup routine * 析构函数 destructor * 样板代码 boilerplate code *
+ 空操作 no-op * 
 
 ---
 
