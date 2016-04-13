@@ -380,7 +380,9 @@ Item 48 - 多用块枚举，少用for循环
 
 ---
 
-Item 49 - 对定义其内存管理语义的collection使用无缝桥接
+Item 49 - 对定义其内存管理语义的collection使用无缝桥接 ？？？
+（1）通过无缝桥接技术，可以在Foundation框架中的Objective-C对象与CoreFoundation框架中的C语言数据结构之间来回转换。
+（2）在CoreFoundation层面创建collection时，可以指定许多回调函数，这些函数表示此collection应如何处理其元素。然后，可运用无缝桥接技术，将其转换成具备特殊内存管理语义的Objective-C collection。
 
 ---
 
@@ -561,6 +563,8 @@ Chapter 6 - 块与大中枢派发
 
  扩展 extension * 内联块 inline block * 不透明的void指针 opaque void pointer * 
  分配在堆上的块 heap block * 分配在栈上的块 stack block * 全局块 global block * 
+
+ 固有类型 inherent type * 
 
 ---
 
