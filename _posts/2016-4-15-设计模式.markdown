@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "设计模式"
+date:   2016-4-15 9:15:00 +0800
+published:  true
+categories: my projects
+---
+
+iOS炼金术师 - 去粗取精
+
+---
+
+---
+
+Part A - 创建型
+
+---
+
+Summary - [Creational pattern](https://en.wikipedia.org/wiki/Creational_pattern)
+
+[Factory method pattern](https://en.wikipedia.org/wiki/Factory_method_pattern)
+
+---
+
+Part B - 结构型
+
+---
+
+---
+
+Part C - 行为型
+
+---
+
+---
+
