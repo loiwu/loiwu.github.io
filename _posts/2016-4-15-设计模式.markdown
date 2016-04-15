@@ -10,6 +10,8 @@ iOS炼金术师 - 去粗取精
 
 ---
 
+[Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
+
 ---
 
 Part A - 创建型
@@ -18,7 +20,11 @@ Part A - 创建型
 
 Summary - [Creational pattern](https://en.wikipedia.org/wiki/Creational_pattern)
 
+[Abstract factory pattern](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
 [Factory method pattern](https://en.wikipedia.org/wiki/Factory_method_pattern)
+[Builder pattern](https://en.wikipedia.org/wiki/Builder_pattern)
+[Prototype pattern](https://en.wikipedia.org/wiki/Prototype_pattern)
+[Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 ---
 
@@ -26,11 +32,36 @@ Part B - 结构型
 
 ---
 
+Summary - [Structural pattern](https://en.wikipedia.org/wiki/Structural_pattern)
+
+[Adapter pattern](https://en.wikipedia.org/wiki/Adapter_pattern)
+[Bridge pattern](https://en.wikipedia.org/wiki/Bridge_pattern)
+[Composite pattern](https://en.wikipedia.org/wiki/Composite_pattern)
+[Decorator pattern](https://en.wikipedia.org/wiki/Decorator_pattern)
+[Facade pattern](https://en.wikipedia.org/wiki/Facade_pattern)
+[Flyweight pattern](https://en.wikipedia.org/wiki/Flyweight_pattern)
+[Proxy pattern](https://en.wikipedia.org/wiki/Proxy_pattern)
+
+
 ---
 
 Part C - 行为型
 
 ---
+
+Summary - [Behavioral pattern](https://en.wikipedia.org/wiki/Behavioral_pattern)
+
+[Interpreter pattern](https://en.wikipedia.org/wiki/Interpreter_pattern)
+[Template method pattern](https://en.wikipedia.org/wiki/Template_method_pattern)
+[Chain-of-responsibility pattern](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
+[Command pattern](https://en.wikipedia.org/wiki/Command_pattern)
+[Iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern)
+[Mediator pattern](https://en.wikipedia.org/wiki/Mediator_pattern)
+[Memento pattern](https://en.wikipedia.org/wiki/Memento_pattern)
+[Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
+[State pattern](https://en.wikipedia.org/wiki/State_pattern)
+[Strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
+[Visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern)
 
 ---
 
