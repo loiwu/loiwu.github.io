@@ -71,3 +71,14 @@ Reference Links
 
 [23种设计模式](http://www.cnblogs.com/beijiguangyong/archive/2010/11/15/2302807.html)
 
+---
+
+Plan：
+
+1. Swift and Game Development
+2. 设计模式理论与实践
+3. JavaScript在各种环节中的应用
+4. iOS 与 Objective-C开发技巧
+
+---
+
