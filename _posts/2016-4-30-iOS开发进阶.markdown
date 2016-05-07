@@ -6,11 +6,59 @@ published:  true
 categories: my projects
 ---
 
-但行好事
+但行好事，不忘初心
 
 ---
 
-Objective-C Object Model
+## **开发工具**
 
-ias swizzling
-method swizzling
+### 依赖管理
+
+* CocoaPods 
+[CocoaPods 使用手册](http://www.cnblogs.com/ouyangfang/p/4173544.html)
+* Carthage
+[Carthage 使用心得](http://www.jianshu.com/p/bf263c596538)
+
+### 网络封包分析
+
+* Charles
+[Charles 官方website](http://www.charlesproxy.com)
+[Charles 使用教程](http://blog.csdn.net/jiangwei0910410003/article/details/41620363)
+
+### 界面调试
+
+* Reveal
+[Reveal 官方website](http://revealapp.com)
+* PonyDebugger
+[PonyDebugger Github](https://github.com/square/PonyDebugger)
+
+### 移动统计
+
+* Flurry
+[Flurry 官方website](http://www.flurry.com)
+
+### Crash Log 记录
+
+* Crashlytics
+[Crashlytics 官方website](https://try.crashlytics.com)
+
+### App Store 统计
+
+* App Annie
+[App Annie 官方website](https://www.appannie.com)
+
+### Xcode 插件
+
+* 插件管理
+[Xcode插件管理工具Alcatraz](http://www.jianshu.com/p/7a2484123bf6)
+* VVDocumenter
+[VVDocumenter Github](https://github.com/onevcat/VVDocumenter-Xcode)
+* appledoc
+[appledoc Github](https://github.com/tomaz/appledoc)
+
+
+## **开发实践**
+
+
+
+## **底层原理**
