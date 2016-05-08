@@ -59,6 +59,18 @@ categories: my projects
 
 ## **开发实践**
 
+### 内存管理
+
+Key Concepts：
+引用计数、Automatic Reference Counting、-fno-objc-arc、"谁申请谁释放"、reference cycles、weak reference、Instruments、memory leaks、Manual Reference Counting、Deprecad、Core Foundation、__bridge、__bridge_retained、__bridge_transfer
+
+Key Topics：
+1. 引用计数及其设计、使用原理
+2. 向已经释放的对象发送消息带来的风险
+3. 循环引用问题及其检测与解决
+4. Core Foundation对象的内存管理
+
+### GCD Grand Central Dispatch
 
 
 ## **底层原理**
