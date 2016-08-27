@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Coding-编码实践"
+date:   2016-8-28 11:06:00 +0800
+published:  true
+categories: bbkit
+---
+
+
+Logic will get you from A to B. Imagination will take you everywhere
+
+---
+
+HTML CSS JavaScript Coding
+
+---
+
+Date: 2016-8-28
+
+[Loi's Paw](http://codepen.io/superloi/full/ZOgZKk/)
+
+
+
