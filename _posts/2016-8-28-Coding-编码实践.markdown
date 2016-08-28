@@ -11,11 +11,11 @@ Logic will get you from A to B. Imagination will take you everywhere
 
 ---
 
-##HTML CSS JavaScript Coding
+## HTML CSS JavaScript Coding
 
 ---
 
-- Week 01
+# Week 01
 
 - Date: 2016-8-27
 
@@ -29,25 +29,39 @@ Logic will get you from A to B. Imagination will take you everywhere
 
 [Tiger's Profile](http://codepen.io/superloi/full/RRXjwO)
 
-- Date: 2016-8-30
 
-Loi's Paw - 代码分析
-
-- Date: 2016-8-31
-
-Fangjing's Gallery - 代码分析
-
-- Date: 2016-9-01
-
-Tiger's Profile - 代码分析
-
-- Date: 2016-9-02
-
-Week 01 - FrontEnd 技术总结
 
 - Week 02
 
-- to be continued 
+ to be continued 
+
+
+## ReactNative
+
+- Documents
+
+1. http://facebook.github.io/react-native/
+
+2. http://facebook.github.io/react-native/docs/getting-started.html#content
+
+- References
+
+1. 如何评价 React Native？
+
+https://www.zhihu.com/question/27852694
+
+2. Books
+
+http://www.salttiger.com/?s=React+Native
+
+(1) Getting Started with React Native
+
+(2) Learning React Native
+
+(3) Beginning Mobile App Development with React Native
+
+---
+
 
 
 
