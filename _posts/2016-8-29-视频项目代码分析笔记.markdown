@@ -2,7 +2,7 @@
 layout: post
 title:  "视频项目代码分析笔记"
 date:   2016-8-29 01:00:00 +0800
-published:  true
+published:  false
 categories: bbkit
 ---
 
@@ -11,7 +11,7 @@ Logic will get you from A to B. Imagination will take you everywhere
 
 ---
 
-#About Interactive Live Show
+# About Interactive Live Show
 
 互动直播
 
@@ -94,7 +94,7 @@ TCAVIMMIManager
 TCAVIMMIManager (ProtectedMethod)
 TCAVIMMIManager (RoleAndAuth)
 
-#About this post
+# About this post
 
 August 29, 2016.
 
