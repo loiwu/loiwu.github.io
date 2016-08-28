@@ -31,28 +31,24 @@ Logic will get you from A to B. Imagination will take you everywhere
 
 
 
-- Week 02
+# Week 02
 
  to be continued 
 
 
 ## ReactNative
 
-- Documents
+1. Documents
 
-1. http://facebook.github.io/react-native/
+(1) http://facebook.github.io/react-native/
 
-2. http://facebook.github.io/react-native/docs/getting-started.html#content
+(2) http://facebook.github.io/react-native/docs/getting-started.html#content
 
-- References
+2. References
 
-1. 如何评价 React Native？
+(1) [如何评价 React Native？](https://www.zhihu.com/question/27852694)
 
-https://www.zhihu.com/question/27852694
-
-2. Books
-
-http://www.salttiger.com/?s=React+Native
+3. [Books](http://www.salttiger.com/?s=React+Native)
 
 (1) Getting Started with React Native
 
