@@ -11,13 +11,43 @@ Logic will get you from A to B. Imagination will take you everywhere
 
 ---
 
-HTML CSS JavaScript Coding
+##HTML CSS JavaScript Coding
 
 ---
 
-Date: 2016-8-28
+- Week 01
 
-[Loi's Paw](http://codepen.io/superloi/details/ZOgZKk)
+- Date: 2016-8-27
+
+[Loi's Paw](http://codepen.io/superloi/full/ZOgZKk/)
+
+- Date: 2016-8-28
+
+[Fangjing's Gallery](http://codepen.io/superloi/full/pbrdgZ/)
+
+- Date: 2016-8-29
+
+[Tiger's Profile](http://codepen.io/superloi/full/RRXjwO)
+
+- Date: 2016-8-30
+
+Loi's Paw - 代码分析
+
+- Date: 2016-8-31
+
+Fangjing's Gallery - 代码分析
+
+- Date: 2016-9-01
+
+Tiger's Profile - 代码分析
+
+- Date: 2016-9-02
+
+Week 01 - FrontEnd 技术总结
+
+- Week 02
+
+- to be continued 
 
 
 
