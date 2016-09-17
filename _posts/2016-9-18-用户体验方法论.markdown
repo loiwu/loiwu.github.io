@@ -2,7 +2,7 @@
 layout: post
 title:  "用户体验方法论"
 date:   2016-9-18 0:06:00 +0800
-published:  false
+published:  true
 categories: bbkit
 ---
 
