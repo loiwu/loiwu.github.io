@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "从零到一"
+date:   2016-9-17 0:06:00 +0800
+published:  true
+categories: bbkit
+---
+
+Logic will get you from A to B. Imagination will take you everywhere
+
+---
+
+## Table of Contents
+
+* [未来的挑战](#未来的挑战)
+
+第1章 未来的挑战
+==========
+
+* [从0到1：进步的未来](#从0到1：进步的未来) - 9/17/2016
+
+从0到1：进步的未来
+----------
+
+>进步可以呈现两种形式。
+>水平进步
+>垂直进步
+
+---
+
+#About this post
+
+update on Sep 17, 2016.
+

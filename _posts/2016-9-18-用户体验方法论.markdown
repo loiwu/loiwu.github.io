@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "用户体验方法论"
+date:   2016-9-18 0:06:00 +0800
+published:  true
+categories: bbkit
+---
+
+Logic will get you from A to B. Imagination will take you everywhere
+
+---
+
+## Table of Contents
+
+* [用户体验的核心是用户需求](#用户体验的核心是用户需求)
+
+用户体验的核心是用户需求
+==========
+
+* [你不是在为自己做设计](#你不是在为自己做设计) - 9/18/2016
+
+你不是在为自己做设计
+----------
+
+>每个用户与产品互动的方式和他们的产品体验都各不相同，取决于各自的背景和生活环境。
+
+---
+
+#About this post
+
+update on Sep 18, 2016.
+
+
