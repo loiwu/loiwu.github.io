@@ -8,6 +8,7 @@ categories: bbkit
 
 > update on Sep 18, 2016.
 
+> * [2016年9月20日笔记](#2016年9月20日笔记↓↓↓)
 > * [2016年9月19日笔记](#2016年9月19日笔记↓↓↓)
 > * [2016年9月18日笔记](#2016年9月18日笔记↓↓↓)
 > * [2016年9月17日笔记](#2016年9月17日笔记↓↓↓)
@@ -20,6 +21,7 @@ categories: bbkit
 * [你不是在为自己做设计](#你不是在为自己做设计)
 * [一切从用户需求出发](#一切从用户需求出发)
 * [不要违背用户的习惯](#不要违背用户的习惯)
+* [重新定义用户体验](#重新定义用户体验)
 
 <span id="2016年9月17日笔记↓↓↓">2016年9月17日笔记↓↓↓</span>
 
@@ -63,6 +65,25 @@ categories: bbkit
 
 >优秀的用户体验设计师都会充分考虑到用户的体验，总会首先问这样的问题：用户从哪里来？
 
+<span id="2016年9月20日笔记↓↓↓">2016年9月20日笔记↓↓↓</span>
+
+#### <span id="重新定义用户体验">重新定义用户体验</span>
+
+>用户体验的定义：用户体验涵盖终端用户与公司、公司服务及其产品之间的交互的方方面面。
+
+>一个普遍的需要摒弃的错误观念是：用户体验就意味着可用性。
+
+>可用性，图形的视觉特点，设计的情感效果，都是构成用户体验的重要因素。
+
+>雅各布·尼尔森把超预期的用户体验归结成以下五个基本要素：
+- 易学（Learnability）：第一次使用这个功能时，用户能否很容易完成基本任务？
+- 高效（Efficiency）：一旦用户学会了这个功能，他们能否很快完成任务？
+- 易记（Memorability）：如果有一段时间不适用这个程序，再重新使用这个功能时，用户能否很快恢复到原来的使用水平？
+- 纠错（Errors）：用户会犯多少错误？这些错误的严重程度如何？
+- 满意度（Satisfaction）：使用这个功能时，用户的愉快程度如何？
+
+>LEMErS
+
 #### <span id="Key Words↓↓↓">Key Words:</span>
 
 >[希区柯克(Alfred Hitchcock)](https://en.wikipedia.org/wiki/Alfred_Hitchcock)
@@ -76,3 +97,5 @@ categories: bbkit
 >[罗兰 布里切特(Loren Brichter)](https://en.wikipedia.org/wiki/Loren_Brichter)
 
 >[交互(Interactivity)](https://en.wikipedia.org/wiki/Interactivity)
+
+>[雅各布 尼尔森(Jakob Nielsen)](https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant))
