@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "用户体验方法论-善于利用限制才能创造出好的用户体验"
-date:   2016-10-3 17:17:00 +0800
+date:   2016-10-3 7:17:00 +0800
 published:  true
 categories: bbkit
 ---
