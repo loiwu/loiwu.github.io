@@ -3,7 +3,7 @@ layout: post
 title:  "不积跬步无以至千里"
 date:   2016-7-25 10:00:00 +0800
 published:  true
-categories: bbkit
+categories: false
 ---
 
 
