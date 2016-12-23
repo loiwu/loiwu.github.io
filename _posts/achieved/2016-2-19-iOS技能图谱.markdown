@@ -2,7 +2,7 @@
 layout: post
 title:  "iOS 技能图谱"
 date:   2016-2-19 9:15:00 +0800
-published:  true
+published:  false
 categories: my projects
 ---
 

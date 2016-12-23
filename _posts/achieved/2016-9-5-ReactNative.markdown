@@ -2,7 +2,7 @@
 layout: post
 title:  "React Native"
 date:   2016-9-5 8:06:00 +0800
-published:  true
+published:  false
 categories: bbkit
 ---
 

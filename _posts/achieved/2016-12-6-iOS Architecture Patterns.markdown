@@ -2,7 +2,7 @@
 layout: post
 title:  "iOS Architecture Patterns"
 date:   2016-12-6 7:17:00 +0800
-published:  true
+published:  false
 categories: bbkit
 ---
 
