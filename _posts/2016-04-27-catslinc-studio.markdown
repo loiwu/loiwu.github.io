@@ -3,7 +3,7 @@ title:  "创意联合"
 subtitle: "Hi Cat，欢迎你来"
 author: "loiwu"
 avatar: "img/authors/loiwu.jpg"
-image: "img/CatslincStudio.jpg"
+image: "img/CatslincStudio.png"
 date:   2015-01-01 13:00:00
 ---
 
@@ -17,7 +17,6 @@ date:   2015-01-01 13:00:00
 * Email: vipstartup@qq.com
 * Wechat: superloiwu
 
-如果你好奇我是谁，欢迎来看看我的自我介绍
-* [About Loi](http://loiwu.github.io/#/2016/04/28/be-a-tiger)
+如果你好奇我是谁，你只能靠猜
 
 ### 这是一个广告位
