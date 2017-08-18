@@ -21,14 +21,15 @@ I used to work for Alibaba, Cisco.
 
 ### CatsLinc Studio
 I have a software/design studio called ‘CatsLinc Studio’. Our team members come from many different fields.
-[CatsLinc Studio Official Website](http://www.catslinc.com)
+* [CatsLinc Studio Official Website](http://www.catslinc.com)
 
 ### BAEN
 I’m coding for iOS, as well as full stack, and I’ve released an app named BAEN in App Store.
-[BAEN](https://itunes.apple.com/us/app/baen-bay-area-equestrian-network/id967867603?mt=8)
+* [BAEN](https://itunes.apple.com/us/app/baen-bay-area-equestrian-network/id967867603?mt=8)
 
 ### 唯品会 for iOS
 As a participant and leader, I’ve been involved in product designing and developing of VIP.com for iOS
-[唯品会 for iOS](https://itunes.apple.com/us/app/vipshop/id417200582?mt=8)
+* [唯品会 for iOS](https://itunes.apple.com/us/app/vipshop/id417200582?mt=8)
 
-You can check what I am interested in at my [GitHub](https://github.com/loiwu)
+My GitHub
+* [loiwu](https://github.com/loiwu)
