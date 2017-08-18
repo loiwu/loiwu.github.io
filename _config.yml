@@ -1,7 +1,7 @@
 # Site settings
-title: CatsLinc Blog
-description: CatsLinc-Blog A Elegant template for Jekyll
-keywords: CatsLinc, Blogging, Fun
-author: loiwu
+title: CatsLinc Studio
+description: CatsLinc 创意联合, 小姐姐们为期十年的约定
+keywords: CatsLinc, Blogging, Fun, 创意
+author: acat
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
