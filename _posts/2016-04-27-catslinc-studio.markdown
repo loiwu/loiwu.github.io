@@ -3,7 +3,7 @@ title:  "创意联合"
 subtitle: "Hi Cat，欢迎你来"
 author: "loiwu"
 avatar: "img/authors/loiwu.jpg"
-image: "img/CatslincStudio.png"
+image: "img/CatslincStudio.jpg"
 date:   2015-01-01 13:00:00
 ---
 
