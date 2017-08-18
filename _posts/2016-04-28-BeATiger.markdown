@@ -2,7 +2,7 @@
 title:  "Be A Tiger"
 subtitle: "你是谁，最终由DNA决定"
 author: "loiwu"
-avatar: "img/authors/loiwu.png"
+avatar: "img/authors/loiwu.jpg"
 image: "img/beATiger.jpg"
 date:   2016-04-28 13:00:00
 ---
