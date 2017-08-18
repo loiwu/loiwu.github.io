@@ -10,10 +10,9 @@ date:   2016-04-28 13:00:00
 ### About Me
 My name is Loi Wu, and I’m a software engineer living in Guangzhou, China with my work partner Constance.
 
-You can contact me, if you like:
-
-Email: vipstartup@qq.com
-Wechat: superloiwu
+Welcome to contact me:
+* Email: vipstartup@qq.com
+* Wechat: superloiwu
 
 I’m interested in technology and software development. I’m passionate about intuitive design, multi-touch interfaces, human-focused software, and accessibility.
 
@@ -30,6 +29,3 @@ I’m coding for iOS, as well as full stack, and I’ve released an app named BA
 ### 唯品会 for iOS
 As a participant and leader, I’ve been involved in product designing and developing of VIP.com for iOS
 * [唯品会 for iOS](https://itunes.apple.com/us/app/vipshop/id417200582?mt=8)
-
-My GitHub
-* [loiwu](https://github.com/loiwu)
