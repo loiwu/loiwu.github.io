@@ -1,10 +1,10 @@
 ---
-title:  "Be A Tiger"
+title:  "Streaming Media"
 subtitle: "流媒体"
 author: "loiwu"
 avatar: "img/authors/beACat.jpg"
 image: "img/beABeauty.jpg"
-date:   2016-09-29 13:00:00
+date:   2017-09-29 13:00:00
 ---
 
 流媒体开发:
