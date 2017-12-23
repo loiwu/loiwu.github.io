@@ -9,7 +9,7 @@ date:   2016-04-28 13:00:00
 
 ### About Me
 
-My name is Loi Wu, a senior software engineer living in Guangzhou, China.
+*My name is Loi Wu, a senior software engineer living in Guangzhou, China.
 
 I believe that every team needs someone with the vision to keep it looking and moving forward.
 I’m interested in technology and software development.
