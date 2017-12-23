@@ -10,11 +10,10 @@ date:   2016-04-28 13:00:00
 ### About Me
 
 My name is Loi Wu, a senior software engineer living in Guangzhou, China.
-I believe that every team needs someone with the vision to keep it looking and moving forward.
 
+I believe that every team needs someone with the vision to keep it looking and moving forward.
 I’m interested in technology and software development.
 I’m passionate about new business models in e-commerce, which can bring more business opportunities in the coming future.
-
 Years ago, I worked for Alibaba & Cisco as a software engineer.
 
 Welcome to contact me:
