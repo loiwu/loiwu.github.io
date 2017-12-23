@@ -8,15 +8,18 @@ date:   2016-04-28 13:00:00
 ---
 
 ### About Me
-My name is Loi Wu, and I’m a software engineer living in Guangzhou, China with my work partner Constance.
+
+My name is Loi Wu, a senior software engineer living in Guangzhou, China.
+I believe that every team needs someone with the vision to keep it looking and moving forward.
+
+I’m interested in technology and software development.
+I’m passionate about new business models in e-commerce, which can bring more business opportunities in the coming future.
+
+Years ago, I worked for Alibaba & Cisco as a software engineer.
 
 Welcome to contact me:
-* Email: vipstartup@qq.com
+* Email: loi.wu@vipshop.com
 * Wechat: superloiwu
-
-I’m interested in technology and software development. I’m passionate about intuitive design, multi-touch interfaces, human-focused software, and accessibility.
-
-I used to work for Alibaba, Cisco.
 
 ### CatsLinc Studio
 I have a software/design studio called ‘CatsLinc Studio’. Our team members come from many different fields.
