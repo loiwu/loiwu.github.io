@@ -151,7 +151,7 @@ REST不是一种协议，而是一种比诸如SOAP这样的协议更灵活的架
 
 2. 环境搭建
 
-（1）本地环境搭建
+2.1 本地环境搭建
 
 逐步安装本地组件。
 
@@ -169,7 +169,7 @@ REST不是一种协议，而是一种比诸如SOAP这样的协议更灵活的架
 
  - 组件，如 Node.js、JS库（LESS/Bootstrap/jQuery/Backbone.js）等
 
-（2）云端环境搭建
+2.2 云端环境搭建
 
 为使用云服务做准备。
 
@@ -182,21 +182,3 @@ REST不是一种协议，而是一种比诸如SOAP这样的协议更灵活的架
  - [Heroku](https://www.heroku.com/)
 
  - [Cloud9](https://aws.amazon.com/cn/cloud9/)
-
-0. end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
