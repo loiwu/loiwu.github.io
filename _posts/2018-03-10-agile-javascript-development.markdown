@@ -149,6 +149,8 @@ REST不是一种协议，而是一种比诸如SOAP这样的协议更灵活的架
 
 [幂等方法](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Idempotent_methods_and_web_applications)
 
+
+
 2. 环境搭建
 
 2.1 本地环境搭建
