@@ -3,7 +3,7 @@ title:  "Agile JavaScript Development"
 subtitle: "JavaScript快速全栈开发"
 author: "loiwu"
 avatar: "img/authors/beACat.jpg"
-image: "img/d.jpg"
+image: "img/c.jpg"
 date:   2018-03-10 1:00:00
 ---
 
@@ -153,6 +153,8 @@ REST不是一种协议，而是一种比诸如SOAP这样的协议更灵活的架
 
 （1）本地环境搭建
 
+逐步安装本地组件。
+
  - 开发目录
 
  - 浏览器
@@ -168,6 +170,8 @@ REST不是一种协议，而是一种比诸如SOAP这样的协议更灵活的架
  - 组件，如 Node.js、JS库（LESS/Bootstrap/jQuery/Backbone.js）等
 
 （2）云端环境搭建
+
+为使用云服务做准备。
 
  - SSH密钥
 
