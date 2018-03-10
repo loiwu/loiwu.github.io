@@ -153,37 +153,35 @@ REST不是一种协议，而是一种比诸如SOAP这样的协议更灵活的架
 
 ### 2. 环境搭建
 
+逐步安装本地组件，为使用云服务做准备。
+
 2.1 本地环境搭建
 
-0）逐步安装本地组件。
+ -> 开发目录
 
- - 开发目录
+ -> 浏览器
 
- - 浏览器
+ -> IDE
 
- - IDE
+ -> 版本控制
 
- - 版本控制
+ -> 本地HTTP服务器
 
- - 本地HTTP服务器
+ -> 数据库，如MongoDB
 
- - 数据库，如MongoDB
-
- - 组件，如 Node.js、JS库（LESS/Bootstrap/jQuery/Backbone.js）等
+ -> 组件，如 Node.js、JS库（LESS/Bootstrap/jQuery/Backbone.js）等
 
 2.2 云端环境搭建
 
-0）为使用云服务做准备。
+ -> SSH密钥
 
- - SSH密钥
+ -> 代码仓库: [GitHub](https://github.com/)/[Bitbucket](https://bitbucket.org/)/[GitLab](https://about.gitlab.com/)
 
- - 代码仓库: [GitHub](https://github.com/)/[Bitbucket](https://bitbucket.org/)/[GitLab](https://about.gitlab.com/)
+ -> 云主机
 
- - 云主机
+ -> [Heroku](https://www.heroku.com/)
 
- - [Heroku](https://www.heroku.com/)
-
- - [Cloud9](https://aws.amazon.com/cn/cloud9/)
+ -> [Cloud9](https://aws.amazon.com/cn/cloud9/)
  
  
  
