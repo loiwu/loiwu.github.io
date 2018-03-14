@@ -7,7 +7,7 @@ image: "img/a.jpg"
 date:   2018-03-11 1:00:00
 ---
 
-Data-Driven Marketing - The 15 Important Markketing Metrics
+Data-Driven Marketing - The 15 Important Marketing Metrics
 
 ## Part 01- 概述
 
@@ -49,7 +49,7 @@ Data-Driven Marketing - The 15 Important Markketing Metrics
 
 后5个指标成为“新时代营销指标”。指标（11）~（13）放映了搜索引擎营销的效果。指标（14）是理解你网站有多好的关键指标。指标（15）反映了社会媒体营销的效果。
 
-1.3 营销预算：领跑者和落后者之间的关键差别
+1.2 营销预算：领跑者和落后者之间的关键差别
 
 根据营销投入实际想要做什么，定义了用于刺激需求营销、品牌化和认知、客户关系、塑造市场和基础设施与能力建设的资金桶。
 
@@ -65,7 +65,7 @@ Data-Driven Marketing - The 15 Important Markketing Metrics
 
 财务指标可以被用来量化大约50%的营销活动。营销分水岭确实存在，市场领跑者在刺激需求营销上投入较少，而在品牌化和客户资产、支持数据驱动营销的基础建设上，投入更多。
 
-1.4 确定数据驱动营销战略
+1.3 确定数据驱动营销战略
 
 （1）第一步，开发一个数据驱动营销战略的框架
 
