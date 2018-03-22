@@ -3,7 +3,7 @@ title:  "Recommendation Algorithm"
 subtitle: "3个一分钟了解的推荐算法"
 author: "loiwu"
 avatar: "img/authors/beACat.jpg"
-image: "img/a.jpg"
+image: "img/b.jpg"
 date:   2018-03-22 1:00:00
 ---
 
