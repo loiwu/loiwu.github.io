@@ -81,7 +81,7 @@ Mastering the Requirements Process - Getting Requirements Right
 
 ###  2. 需求过程
 
-![Volere 需求过程](http://www.volere.co.uk/images/Process%2013.jpg)
+<img src="img/resources/VolereRequirementsProcess.jpg"  alt="Volere 需求过程" />
 
 [Volere 需求规格说明书模板 Volere Requirements Specification Template](http://www.volere.co.uk/template.htm)
 
