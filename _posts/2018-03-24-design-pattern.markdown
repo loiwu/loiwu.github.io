@@ -14,16 +14,16 @@ date:   2018-03-24 1:00:00
 
 设计模式
 
-<img src="img/resources/DesignPatterns.png"  alt="设计模式" />
+<div class="scale"><img src="img/resources/DesignPatterns.png"  alt="设计模式" /></div>
 
 设计模式之间的关系
 
-<img src="img/resources/the-relationship-between-design-patterns.jpg"  alt="设计模式之间的关系" />
+<div class="scale"><img src="img/resources/the-relationship-between-design-patterns.jpg"  alt="设计模式之间的关系" /></div>
 
 J2EE模式
 
-<img src="img/resources/J2EEPatterns.png"  alt="J2EE模式" />
+<div class="scale"><img src="img/resources/J2EEPatterns.png"  alt="J2EE模式" /></div>
 
 架构模式
 
-<img src="img/resources/ArchitecturalPatterns.png"  alt="架构模式" />
+<div class="scale"><img src="img/resources/ArchitecturalPatterns.png"  alt="架构模式" /></div>
