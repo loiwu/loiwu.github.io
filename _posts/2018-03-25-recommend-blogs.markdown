@@ -2,7 +2,7 @@
 title:  "看一些Dev Blogs"
 subtitle: "iOS Dev Blogs"
 author: "loiwu"
-avatar: "img/authors/loiwu.jpg"
+avatar: "img/authors/wishcat.jpg"
 image: "img/tigerCat.jpg"
 date:   2018-03-25 1:00:00
 ---
