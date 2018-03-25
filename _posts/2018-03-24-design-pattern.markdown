@@ -3,9 +3,14 @@ title:  "指导日常工作的设计模式和架构模式总结"
 subtitle: "Design Pattern & Architectural Pattern"
 author: "loiwu"
 avatar: "img/authors/doggy.jpg"
-image: "img/tigerCat.jpg"
+image: "img/beAGray.jpg"
 date:   2018-03-24 1:00:00
 ---
+
+
+不好意思😅，图太大了，没做自适应。
+
+长按下载吧😆
 
 设计模式
 
