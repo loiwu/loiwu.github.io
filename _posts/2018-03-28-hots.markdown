@@ -14,6 +14,8 @@ Blockchain:
 
 <a target="_blank" href="https://github.com/chaozh/awesome-blockchain-cn"> > awesome-blockchain-cn</a>
 
+<a target="_blank" href="https://github.com/topics/blockchain"> > Github Blockchain Topic</a>
+
 Augmented Reality:
 
 <a target="_blank" href="https://github.com/GeekLiB/AR-Source"> > Augmented reality (AR) development resources</a>
@@ -23,3 +25,13 @@ Augmented Reality:
 Virtual Reality:
 
 <a target="_blank" href="https://github.com/aframevr/aframe"> > aframe.io</a>
+
+各种技术：
+
+<a target="_blank" href="https://github.com/ChenYilong/iOSBlog/tree/master/Tips/%E5%9F%BA%E4%BA%8EWebsocket%E7%9A%84IM%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF"> > 基于Websocket的IM即时通讯技术</a>
+
+开源Demo与经验总结：
+
+<a target="_blank" href="https://github.com/NJHu/iOSProject"> > iOS综合项目</a>
+
+<a target="_blank" href="https://github.com/yipianfengye/androidProject"> > android产品研发过程中常用的技术，技巧，实践 </a>
