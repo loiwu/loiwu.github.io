@@ -37,7 +37,11 @@ J2EE模式
 
 ++++++++++ ++++++++++
 
+++++++++++ ++++++++++
+
 五种 创建型模式，这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式。
+
+++++++++++ ++++++++++
 
 1) Factory Pattern
 
@@ -109,9 +113,13 @@ Step 04：PrototypePatternDemo 使用 ShapeCache 类来获取存储在 Hashtable
 
 <div class="scale"><img src="img/resources/DesignPatternDiagrams/prototype_pattern_uml_diagram.jpg"  alt="Prototype Pattern" /></div>
 
+++++++++++ ++++++++++
+
 结构型模式，这些设计模式关注类和对象的组合。
 
-Adapter Pattern
+++++++++++ ++++++++++
+
+6）Adapter Pattern
 
 Step 01：为媒体播放器MediaPlayer和高级媒体播放器AdvancedMediaPlayer创建接口
 
@@ -125,4 +133,17 @@ Step 05：使用 AudioPlayer 来播放不同类型的音频格式
 
 <div><img src="img/resources/DesignPatternDiagrams/adapter_pattern_uml_diagram.jpg" alt="Adapter Pattern"></div>
 
+++++++++++ ++++++++++
+
 行为型模式，这些设计模式关注对象之间的通信。
+
+++++++++++ ++++++++++
+
+Chain of Responsibility Pattern
+
+Step 01：创建抽象的记录器类
+
+Step 02：创建扩展了该记录器类的实体类
+
+Step 03：创建不同类型的记录器。赋予它们不同的错误级别，并在每个记录器中设置下一个记录器。每个记录器中的下一个记录器代表的是链的一部分
+
