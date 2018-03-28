@@ -1,0 +1,25 @@
+---
+title:  "2018 热点"
+subtitle: "Hotspots 热点讯息持续更新"
+author: "loiwu"
+avatar: "img/authors/metiger.jpg"
+image: "img/hugkiss.jpg"
+date:   2018-03-28 1:00:00
+---
+
+
+Blockchain:
+
+<a target="_blank" href="http://blockchaindev.org/"> > 区块链技术漫谈</a>
+
+<a target="_blank" href="https://github.com/chaozh/awesome-blockchain-cn"> > awesome-blockchain-cn</a>
+
+Augmented Reality:
+
+<a target="_blank" href="https://github.com/GeekLiB/AR-Source"> > Augmented reality (AR) development resources</a>
+
+<a target="_blank" href="https://github.com/jeromeetienne/AR.js"> > AR.js</a>
+
+Virtual Reality:
+
+<a target="_blank" href="https://github.com/aframevr/aframe"> > aframe.io</a>
