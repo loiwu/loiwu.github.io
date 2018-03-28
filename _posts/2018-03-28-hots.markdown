@@ -16,6 +16,10 @@ Blockchain:
 
 <a target="_blank" href="https://github.com/topics/blockchain"> > Github Blockchain Topic</a>
 
+<a target="_blank" href="http://truffleframework.com"> > TRUFFLE</a>
+
+<a target="_blank" href="https://github.com/TrustWallet"> > Trust - fast and secure Ethereum wallet that’s easy to use. ERC20 Compatible</a>
+
 Augmented Reality:
 
 <a target="_blank" href="https://github.com/GeekLiB/AR-Source"> > Augmented reality (AR) development resources</a>
