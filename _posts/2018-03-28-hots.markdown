@@ -8,6 +8,10 @@ date:   2018-03-28 1:00:00
 ---
 
 
+这是一份很不错的知识清单。
+
+2018年，区块链的知识储备、应用实践，可能是最令我关注的了。
+
 Blockchain:
 
 <a target="_blank" href="http://blockchaindev.org/"> > 区块链技术漫谈</a>

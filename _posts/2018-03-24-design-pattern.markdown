@@ -131,7 +131,7 @@ Step 04：创建实现了 MediaPlayer 接口的实体类
 
 Step 05：使用 AudioPlayer 来播放不同类型的音频格式
 
-<div><img src="img/resources/DesignPatternDiagrams/adapter_pattern_uml_diagram.jpg" alt="Adapter Pattern"></div>
+<div class="scale"><img src="img/resources/DesignPatternDiagrams/adapter_pattern_uml_diagram.jpg" alt="Adapter Pattern"></div>
 
 ++++++++++ ++++++++++
 
