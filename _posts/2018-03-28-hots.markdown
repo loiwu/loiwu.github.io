@@ -22,7 +22,25 @@ Blockchain:
 
 <a target="_blank" href="http://truffleframework.com"> > TRUFFLE</a>
 
+Ethereum:
+
+关键词 - MetaMask|Remix|MyEtherWallet|Etherscan|HashEx
+
+<a target="_blank" href="https://www.ethereum.org"> > Ethereum </a>
+
+<a target="_blank" href="https://www.ethereum.org"> > Ethereum Great Projects </a>
+
+<a target="_blank" href="http://www.ethdocs.org/en/latest/"> > Ethereum Docs </a>
+
+<a target="_blank" href="https://ethereum.org/foundation"> > Ethereum Foundation</a>
+
+<a target="_blank" href="https://medium.com/@mattcondon/getting-up-to-speed-on-ethereum-63ed28821bbe"> > Getting Up to Speed on Ethereum</a>
+
+<a target="_blank" href="https://abi.hashex.org"> > ABI encoding service by HashEx</a>
+
 <a target="_blank" href="https://github.com/TrustWallet"> > Trust - fast and secure Ethereum wallet that’s easy to use. ERC20 Compatible</a>
+
+<a target="_blank" href="https://ethplorer.io"> > Ethereum Tokens Explorer</a>
 
 Augmented Reality:
 
