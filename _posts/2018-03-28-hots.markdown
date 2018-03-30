@@ -28,7 +28,7 @@ Ethereum:
 
 <a target="_blank" href="https://www.ethereum.org"> > Ethereum </a>
 
-<a target="_blank" href="https://www.ethereum.org"> > Ethereum Great Projects </a>
+<a target="_blank" href="https://www.stateofthedapps.com"> > Ethereum Great Projects </a>
 
 <a target="_blank" href="http://www.ethdocs.org/en/latest/"> > Ethereum Docs </a>
 
@@ -41,6 +41,8 @@ Ethereum:
 <a target="_blank" href="https://github.com/TrustWallet"> > Trust - fast and secure Ethereum wallet that’s easy to use. ERC20 Compatible</a>
 
 <a target="_blank" href="https://ethplorer.io"> > Ethereum Tokens Explorer</a>
+
+<a target="_blank" href="https://ethereum.stackexchange.com/help/badges"> > ethereum.stackexchange.com</a>
 
 Augmented Reality:
 
