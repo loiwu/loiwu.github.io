@@ -44,6 +44,8 @@ Ethereum:
 
 <a target="_blank" href="https://ethereum.stackexchange.com/help/badges"> > ethereum.stackexchange.com</a>
 
+<a target="_blank" href="https://opensea.io/"> > opensea.io</a>
+
 Augmented Reality:
 
 <a target="_blank" href="https://github.com/GeekLiB/AR-Source"> > Augmented reality (AR) development resources</a>
@@ -63,3 +65,7 @@ Virtual Reality:
 <a target="_blank" href="https://github.com/NJHu/iOSProject"> > iOS综合项目</a>
 
 <a target="_blank" href="https://github.com/yipianfengye/androidProject"> > android产品研发过程中常用的技术，技巧，实践 </a>
+
+特别Special的内容，怕之后找不到了，必须Mark下来：
+
+<a target="_blank" href="https://www.theduo.io/"> > Duo, Strategic Design & Development</a>
