@@ -69,3 +69,11 @@ Virtual Reality:
 特别Special的内容，怕之后找不到了，必须Mark下来：
 
 <a target="_blank" href="https://www.theduo.io/"> > Duo, Strategic Design & Development</a>
+
+熟记于心，不怕被难倒：
+
+<a target="_blank" href="https://www.jianshu.com/p/de1418dc031a"> > iOS 面试题 - Alibaba</a>
+
+<a target="_blank" href="http://www.runoob.com/design-pattern/design-pattern-tutorial.html"> > 设计模式</a>
+
+<a target="_blank" href="http://www.ruanyifeng.com/blog/2016/09/software-architecture.html"> > 架构模式</a>
