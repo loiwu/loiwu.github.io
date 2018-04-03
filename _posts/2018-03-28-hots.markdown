@@ -72,6 +72,10 @@ Virtual Reality:
 
 <a target="_blank" href="https://github.com/xiaobei666/weixin-xiaochengxu666-info"> > WeChat Mini Program</a>
 
+<a target="_blank" href="https://github.com/Tencent/weui-wxss"> > Tencent/weui-wxss</a>
+
+<a target="_blank" href="https://github.com/Meituan-Dianping/mpvue"> > Meituan-Dianping/mpvue</a>
+
 熟记于心，不怕被难倒：
 
 <a target="_blank" href="https://www.jianshu.com/p/de1418dc031a"> > iOS 面试题 - Alibaba</a>
