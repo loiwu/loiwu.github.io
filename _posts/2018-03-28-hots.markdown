@@ -70,6 +70,8 @@ Virtual Reality:
 
 <a target="_blank" href="https://www.theduo.io/"> > Duo, Strategic Design & Development</a>
 
+<a target="_blank" href="https://github.com/xiaobei666/weixin-xiaochengxu666-info"> > WeChat Mini Program</a>
+
 熟记于心，不怕被难倒：
 
 <a target="_blank" href="https://www.jianshu.com/p/de1418dc031a"> > iOS 面试题 - Alibaba</a>
