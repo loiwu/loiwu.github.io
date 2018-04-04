@@ -7,14 +7,16 @@ image: "img/timg.jpg"
 date:   2018-04-04 1:00:00
 ---
 
-前端抢手货之 Vue.js和微信小程序框架，还是那句话，市场行情变了。
+Vue.js和微信小程序框架，还是那句话，市场行情就是这样，赶紧学吧。
 
 
 ========== ==========
 
-Part A : [mpvue 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系](https://github.com/Meituan-Dianping/mpvue)
+Part A : [mpvue， 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系](https://github.com/Meituan-Dianping/mpvue)
 
-Part A mpvue 就是重点，Part B Vue.js，一堆非常随意的字，别看了，对你没用。
+Part A mpvue，就是重点，赶紧点开来研究代码吧，
+
+Part B Vue.js，就是一堆非常随意的字，别看了，对你没用。
 
 ========== ==========
 
