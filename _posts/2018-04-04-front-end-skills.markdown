@@ -7,11 +7,20 @@ image: "img/timg.jpg"
 date:   2018-04-04 1:00:00
 ---
 
-前端抢手货之 Vue.js和微信小程序框架
+前端抢手货之 Vue.js和微信小程序框架，还是那句话，市场行情变了。
 
-Part A : Vue.js
 
-Vue.js（读音 /vjuː/, 类似于 view） 是一套构建用户界面的渐进式框架。
+========== ==========
+
+Part A : [mpvue 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系](https://github.com/Meituan-Dianping/mpvue)
+
+Part A mpvue 就是重点，Part B Vue.js，一堆非常随意的字，别看了，对你没用。
+
+========== ==========
+
+Part B : Vue.js，构建用户界面的渐进式框架
+
+Vue.js（读音 /vjuː/, 类似于 view）。
 
 Vue 只关注视图层，采用自底向上增量开发的设计。
 
