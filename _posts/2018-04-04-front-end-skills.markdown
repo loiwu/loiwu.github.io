@@ -53,44 +53,12 @@ var vm = new Vue({
 
  除了数据属性，Vue 实例还提供了一些有用的实例属性与方法。它们都有前缀 $，以便与用户定义的属性区分开来。
 
-```
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Vue.js App -（loiwu.github.io)</title>
-	<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
-</head>
-<body>
-    <div id="vue_det">
-        <h1>site : {{site}}</h1>
-        <h1>url : {{url}}</h1>
-        <h1>Alexa : {{alexa}}</h1>
-    </div>
-    <script type="text/javascript">
-    // 数据对象
-    var data = { site: "TechBlog", url: "loiwu.github.io", alexa: 100}
-    var vm = new Vue({
-        el: '#vue_det',
-        data: data
-    })
-    // 引用相同的对象！
-    document.write(vm.a === data.a) // true
-	document.write("<br>")
-    // 设置属性也会影响到原始数据
-    vm.site = "TechBlog"
-    document.write(data.site + "<br>") // TechBlog
-    // ……反之亦然
-    data.alexa = 1001
-    document.write(vm.alexa) // 1001
-	document.write("<br>")
-	document.write(vm.$data === data) // true
-    document.write("<br>")
-    document.write(vm.$el === document.getElementById('vue_det')) // true
-    </script>
-</body>
-</html>
-```
+3）Vue.js 模板语法
 
+Vue.js 使用了基于 HTML 的模版语法，允许开发者声明式地将 DOM 绑定至底层 Vue 实例的数据。
+
+Vue.js 的核心是一个允许你采用简洁的模板语法来声明式的将数据渲染进 DOM 的系统。
+
+结合响应系统，在应用状态改变时， Vue 能够智能地计算出重新渲染组件的最小代价并应用到 DOM 操作上。
 
 
