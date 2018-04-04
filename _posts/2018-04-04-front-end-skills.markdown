@@ -9,10 +9,13 @@ date:   2018-04-04 1:00:00
 
 Vue.js和微信小程序框架，还是那句话，市场行情就是这样，赶紧学吧。
 
-
 ========== ==========
 
-Part A : [mpvue， 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系](https://github.com/Meituan-Dianping/mpvue)
+<a target="_blank" href="https://github.com/Meituan-Dianping/mpvue"> Part A > mpvue </a>
+
+<a target="_blank" href="https://github.com/Meituan-Dianping/mpvue">mpvue, 是基于Vue.js的小程序开发框架, 从底层支持Vue.js语法和构建工具体系</a>
+
+========== ==========
 
 Part A mpvue，就是重点，赶紧点开来研究代码吧，
 
