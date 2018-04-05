@@ -1,0 +1,19 @@
+---
+title:  "devmome"
+subtitle: "一份为我准备的研发备忘录"
+author: "loiwu"
+avatar: "img/authors/timg00.jpg"
+image: "img/timg00.jpg"
+date:   2017-02-14 1:00:00
+---
+
+devmome：一份为我准备的研发备忘录
+
+========== ==========
+
+<a target="_blank" href="https://loiwu.github.io"> devmome </a>
+
+<div class="scale"><img src="img/resources/timg00.jpg"  alt="devmome" /></div>
+
+========== ==========
+
