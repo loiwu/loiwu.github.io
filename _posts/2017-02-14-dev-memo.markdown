@@ -1,6 +1,6 @@
 ---
-title:  "devmome"
-subtitle: "一份为我准备的研发备忘录"
+title:  "避免失忆"
+subtitle: "devmome，一份为我准备的研发备忘录"
 author: "loiwu"
 avatar: "img/authors/timg00.jpg"
 image: "img/timg00.jpg"
