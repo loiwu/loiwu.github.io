@@ -21,19 +21,20 @@ scrape websites with Python and BeautifulSoup
 
 步骤如下：
 
-1. 檢查頁面 Inspecting the Page
+-> 檢查頁面 Inspecting the Page
 
 分析下要爬取得网页的标签结构，这里不赘述了
 
-2. 跳入代碼 Jump into the Code
+-> 跳入代碼 Jump into the Code
 
-[代码](https://github.com/loiwu/scraper/commit/f937f4e4cafa32fa577b26a422093cd33192b625) 自己看
+[代码在这: My GitHub - jump to the code](https://github.com/loiwu/scraper/commit/f937f4e4cafa32fa577b26a422093cd33192b625) 
 
-3. 導出到Excel CSV Export to Excel CSV
+-> 導出到Excel CSV Export to Excel CSV
 
-[代码](https://github.com/loiwu/scraper/commit/b85f5657fdabf36560427ee2d909fdf66902b45a) 自己看
+[代码在这: My GitHub - export to excel csv](https://github.com/loiwu/scraper/commit/b85f5657fdabf36560427ee2d909fdf66902b45a)
 
-完整的代码在这里: [My GitHub](https://github.com/loiwu/scraper/blob/master/main.py)
+
+[完整的代码在这里: My GitHub - scraper](https://github.com/loiwu/scraper/blob/master/main.py)
 
 
 想和我交朋友^_^，请打赏并留言，我们一起探讨下人生：
