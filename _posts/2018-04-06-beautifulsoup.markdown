@@ -44,3 +44,6 @@ scrape websites with Python and BeautifulSoup
 ========== ==========
 
 <a target="_blank" href="https://loiwu.github.io"> loiwu.github.io </a>
+
+<div class="scale"><img src="img/authors/timg02.jpg"  alt="author" /></div>
+
