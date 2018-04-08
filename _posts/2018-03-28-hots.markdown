@@ -68,6 +68,8 @@ Virtual Reality:
 
 <a target="_blank" href="https://github.com/yipianfengye/androidProject"> > android产品研发过程中常用的技术，技巧，实践 </a>
 
+<a target="_blank" href="https://www.weixinbook.net/"> > 微信小程序开发详解</a>
+
 特别Special的内容，怕之后找不到了，必须Mark下来：
 
 <a target="_blank" href="https://www.theduo.io/"> > Duo, Strategic Design & Development</a>
