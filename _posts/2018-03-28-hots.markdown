@@ -56,9 +56,11 @@ Virtual Reality:
 
 <a target="_blank" href="https://github.com/aframevr/aframe"> > aframe.io</a>
 
-各种技术：
+各种技术帖：
 
 <a target="_blank" href="https://github.com/ChenYilong/iOSBlog/tree/master/Tips/%E5%9F%BA%E4%BA%8EWebsocket%E7%9A%84IM%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF"> > 基于Websocket的IM即时通讯技术</a>
+
+<a target="_blank" href="https://segmentfault.com/a/1190000007880723"> > vue-cli#2.0项目结构分析</a>
 
 开源Demo与经验总结：
 
