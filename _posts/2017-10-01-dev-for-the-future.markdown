@@ -11,23 +11,38 @@ Dev for the Future
 
 ========== ========== 
 
-一、研发简历关键词
+研发简历关键词
 
 -> 前端
 
-JavaScript, JQuery, AJAX, Bootstrap, Swiper, Webpack, phpMyAdmin, MySQL, Spring MVC, Hibernate/JPA, ES6, easy-mock, 
+JavaScript, JQuery, AJAX, Bootstrap, Swiper, Webpack, phpMyAdmin, MySQL, Spring MVC, Hibernate/JPA, ES6, easy-mock, Vue.js, Angular, Ionic, PWA, TypeScript, React, SCSS, Express, tween.js, animate.css, vue-cli, Python, BeautifulSoup, Java, 软件开发设计模式, MongoDB, NodeJs, 数据挖掘, 数字版权, 虚拟货币, 浏览器端加密插件
 
-Python, BeautifulSoup
+->
 
-Java
+========== ========== 
 
-软件开发设计模式
+常用命令
 
-MongoDB, NodeJs
+-> 
 
-数据挖掘
+更新npm至最新版本 : npm install -g npm
 
-数字版权, 虚拟货币, 浏览器端加密插件
+全局安装或更新WePY命令行工具 : npm install wepy-cli -g
+
+开启实时编译 : wepy build --watch
+
+
+
+->
+
+========== ========== 
+
+常用文档
+
+-> 
+
+微信小程序组件化开发框架WePY官方文档：
+https://tencent.github.io/wepy/document.html#/
 
 ->
 
