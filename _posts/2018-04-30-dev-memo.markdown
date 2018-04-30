@@ -4,16 +4,40 @@ subtitle: "devmome，一份iOS研发备忘录"
 author: "loiwu"
 avatar: "img/authors/timg01.jpg"
 image: "img/tigerCat.jpg"
-date:   2017-04-30 1:00:00
+date:   2018-04-30 1:00:00
 ---
 
-devmome，一份iOS研发备忘录
+《iOS研发备忘录》
 
-========== ==========
+不功利的学习，是初心。
+
+<div class="scale"><img src="img/authors/timg13.jpg"  alt="tiger" /></div>
 
 
-========== ==========
+【时间：2018年4月30日，晚间】
 
-<div class="scale"><img src="img/author/ReveiveMony.jpg"  alt="ReveiveMony" /></div>
+【主题：Objective-C的语言特性】
+
+【备忘录】
+
+>(1) Overview
+
+Objective-C Framwork is one of App Frameworks, it gains low-level access to the Objective-C runtime and the Objective-C root types. 
+
+The Objective-C module APIs define the base of the Objective-C language. These APIs include: 
+
+Types such as the NSObject class and the NSObject protocol that provide the root functionality of most Objective-C classes. 
+
+Functions and data structures that comprise the Objective-C runtime, which provides support for the dynamic properties of the Objective-C language. 
+
+>(2) Objective-C Runtime, Structures, Constants, Functions, Data Types
+
+【参考】
+
+<a target="_blank" href="http://www.yinwang.org/blog-cn/2017/07/06/master-pl"> >(1) 如何掌握所有的程序语言</a>
+
+<a target="_blank" href="https://developer.apple.com/documentation/objectivec?language=objc"> >(2) Apple Developer Documentation: Objective-C</a>
+
+<div class="scale"><img src="img/authors/ReveiveMony.jpg"  alt="ReveiveMony" /></div>
 
 多谢支持
