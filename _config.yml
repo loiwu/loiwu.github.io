@@ -1,7 +1,7 @@
 # Site settings
-title: 使用Python和BeautifulSoup來抓取網站 - CatsLinc Studio
-description: CatsLinc 创意联合, Find ideas，想可行的办法，做正确的实践
-keywords: CatsLinc, Blogging, Fun, 创意
-author: loi
+title: Loi三石的Technic
+description: 这里有初心，有我想弄明白的事情
+keywords: 吴磊, CatsLinc, Blogging, Fun, 创意, Loi, tech
+author: Loi
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site

@@ -1,0 +1,19 @@
+---
+title:  "iOS研发备忘录"
+subtitle: "devmome，一份iOS研发备忘录"
+author: "loiwu"
+avatar: "img/authors/timg01.jpg"
+image: "img/tigerCat.jpg"
+date:   2017-04-30 1:00:00
+---
+
+devmome，一份iOS研发备忘录
+
+========== ==========
+
+
+========== ==========
+
+<div class="scale"><img src="img/author/ReveiveMony.jpg"  alt="ReveiveMony" /></div>
+
+多谢支持
