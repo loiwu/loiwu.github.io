@@ -203,9 +203,10 @@
 }
 
 body {
-	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
 	line-height: 1.5;
-	color: #3b393d;
+	font-size: 14px;
+	color: #333;
 	background: #f0f0f0;
 	background-size: cover;
 	-webkit-font-smoothing: antialiased;
