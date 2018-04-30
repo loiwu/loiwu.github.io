@@ -20,8 +20,6 @@ date:   2018-04-30 1:00:00
 
 【备忘录】
 
-<p>
-
 >(1) Overview
 
 Objective-C Framwork is one of App Frameworks, it gains low-level access to the Objective-C runtime and the Objective-C root types. 
@@ -33,8 +31,6 @@ Types such as the NSObject class and the NSObject protocol that provide the root
 Functions and data structures that comprise the Objective-C runtime, which provides support for the dynamic properties of the Objective-C language. 
 
 >(2) Objective-C Runtime, Structures, Constants, Functions, Data Types
-
-</p>
 
 【参考】
 
